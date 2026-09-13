@@ -1,0 +1,1346 @@
+    1  ls
+    2  pwd
+    3  sudo mv /etc/apt/sources.list /etc/apt/sources.list.bk
+    4  sudo mv sources.list /etc/apt/
+    5  sudo apt update
+    6  sudo apt install language-pack-zh-hans
+    7  sudo apt install fcitx fcitx-googlepinyin
+    8  pwd
+    9  ls
+   10  cd Downloads/
+   11  ls
+   12  sudo dpkg -i Clash.Verge_2.5.1_amd64.deb 
+   13  sudo dpkg -i ./Clash.Verge_2.5.1_amd64.deb 
+   14  sudo apt install ./Clash.Verge_2.5.1_amd64.deb 
+   15  sudo dpkg -i WeChatLinux_x86_64.deb 
+   16  sudo dpkg -i Xingchen-1.0.12-linux-amd64.deb 
+   17  sudp apt install ./Xingchen-1.0.12-linux-amd64.deb 
+   18  sudo apt install ./Xingchen-1.0.12-linux-amd64.deb 
+   19  sudo apt install upgrade
+   20  sudo apt upgrade
+   21  apt --fix-broken install
+   22  sudo apt --fix-broken install
+   23  sudo apt install ./Xingchen-1.0.12-linux-amd64.deb 
+   24  sudo apt autoremove
+   25  ls
+   26  cd isaac/
+   27  pip install -U pip
+   28  sudo apt install python3-pip
+   29  pip install -U pip
+   30  pip install uv
+   31  sudo vim ~/.pip/pip.conf
+   32  sudo vi ~/.pip/pip.conf
+   33  vi ~/.pip/pip.conf
+   34  pip install -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple uv
+   35  cd isaac/
+   36  uv venv --python 3.11 --seed env_isaaclab
+   37  uv --version
+   38  pip install -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple vim
+   39  source ~/.bashrc 
+   40  uv --version
+   41  uv pip install vim
+   42  sudo apt update
+   43  sudo apt install vim
+   44  uv venv --python 3.11 --seed env_isaaclab
+   45  vim ~/.pip/pip.conf
+   46  source ~/.bashrc 
+   47  uv venv --python 3.11 --seed env_isaaclab
+   48  source env_isaaclab/bin/activate
+   49  pip install --upgrade pip
+   50  uv pip install "isaacsim[all,extscache]==5.1.0" --extra-index-url https://pypi.nvidia.com
+   51  isaacsim
+   52  git clone https://github.com/isaac-sim/IsaacLab.git --branch main
+   53  sudo apt install git
+   54  git clone https://github.com/isaac-sim/IsaacLab.git --branch main
+   55  nvidia-smi
+   56  echo 'export ROS_DISTRO=humble' >> ~/.bashrc
+   57  echo 'export RMW_IMPLEMENTATION=rmw_fastrtps_cpp' >> ~/.bashrc
+   58  echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/felix/isaac/env_isaaclab/lib/python3.11/site-packages/isaacsim/exts/isaacsim.ros2.bridge/humble/lib' >> ~/.bashrc
+   59  source ~/.bashrc
+   60  cd isaac/
+   61  ls
+   62  $ git clone https://github.com/isaac-sim/IsaacLab.git --branch main
+   63  git clone https://github.com/isaac-sim/IsaacLab.git --branch main
+   64  git clone git@github.com:isaac-sim/IsaacLab.git --branch main
+   65  git clone http://github.com/isaac-sim/IsaacLab.git --branch main
+   66  ls -al ~/.ssh
+   67  ssh-keygen -t ed25519 -C "shao918516@163.com"
+   68  eval "$(ssh-agent -s)"
+   69  ssh-add ~/.ssh/id_ed25519
+   70  cat ~/.ssh/id_ed25519.pub
+   71  ssh -T git@github.com
+   72  git clone git@github.com:isaac-sim/IsaacLab.git --branch main
+   73  cd IsaacLab/
+   74  ./isaaclab.sh --help
+   75  ls
+   76  isaaclab.sh --help
+   77  sudo apt update && sudo apt install dos2unix -y
+   78  dos2unix isaaclab.sh
+   79  ./isaaclab.sh --help
+   80  sudo apt install cmake build-essential
+   81  ./isaaclab.sh --install
+   82  source ../env_isaaclab/lib/activate
+   83  cd ../
+   84  source env_isaaclab/bin/activate
+   85  cd IsaacLab/
+   86  ./isaaclab.sh --install
+   87  ls
+   88  history
+   89  source env_isaaclab/bin/activate
+   90  env_isaaclab/bin/activate
+   91  cd IsaacLab/
+   92  cd ../
+   93  gh repo clone isaac-sim/IsaacLab IsaacLab2
+   94  sudo apt install gh
+   95  gh repo clone isaac-sim/IsaacLab IsaacLab2
+   96  gh auth login
+   97  git clone https://github.com/isaac-sim/IsaacLab.git IsaacLab2
+   98  git clone https://ghproxy.com/https://github.com/isaac-sim/rl_games.git@python3.11
+   99  git clone -b python3.11 --depth 1 https://ghproxy.com/https://github.com/isaac-sim/rl_games.git
+  100  git clone -b python3.11 --depth 1 https://hub.fastgit.xyz/isaac-sim/rl_games.git
+  101  git clone -b python3.11 --depth 1 https://hub.fastgit.xyz/isaac-sim/rl_games.git rl_games_fast
+  102  git clone -b python3.11 --depth 1 https://gitclone.com/github.com/isaac-sim/rl_games.git rl_games_fast
+  103  git clone -b python3.11 --depth 1 https://gitclone.com/github.com/Denys88/rl_games.git rl_games_fast
+  104  uv pip install "git+https://github.com/isaac-sim/rl_games.git@python3.11#egg=rl_games" --no-cache-dir
+  105  cd ..
+  106  source env_isaaclab/bin/activate
+  107  uv pip install "git+https://github.com/isaac-sim/rl_games.git@python3.11#egg=rl_games" --no-cache-dir
+  108  pwd
+  109  git clone git@github.com:ARISE-Initiative/robomimic.git
+  110  git clone -b v0.4.0 git@github.com:ARISE-Initiative/robomimic.git
+  111  ls
+  112  cd robomimic/
+  113  ls
+  114  pwd
+  115  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/play.py   --task Isaac-Velocity-Rough-Anymal-C-Play-v0   --num_envs 1   --headless   --video   --video_length 1000   --checkpoint /home/felix/isaac/IsaacLab/logs/rsl_rl/anymal_c_rough/2026-07-02_03-15-03/model_1499.pt
+  116  conda activate env_isaaclab
+  117  cd ..
+  118  source env_isaaclab/bin/activate
+  119  pkill -SIGTERM -f "isaaclab"
+  120  pwd
+  121  ls
+  122  LAFAN1/
+  123  cd LAFAN1/
+  124  vim convert_all.sh
+  125  cd ../
+  126  cd motion_data/LAFAN1/
+  127  chmod +x convert_all.sh 
+  128  cd ..
+  129  ls
+  130  ./convert_all.sh 
+  131  vim convert_all.sh 
+  132  $env | grep -i proxy
+  133  source isaac/env_isaaclab/bin/activate
+  134  cd isaac/IsaacLab/
+  135  ./isaaclab.sh --install
+  136  cd rl_games-master/
+  137  uv pip install -e .
+  138  cd ../rl_games-python3.11/
+  139  uv pip install -e .
+  140  ls
+  141  uv pip install -e .
+  142  cd ../
+  143  ./isaaclab.sh --install
+  144  grep -r "rl-games @ git" --include="*.py" --include="*.toml" --include="*.sh"
+  145  ./isaaclab.sh --install none
+  146  ./isaaclab.sh -p scripts/tutorials/00_sim/create_empty.py
+  147  ./isaaclab.sh --install rl-games
+  148  ./isaaclab.sh --install rsl_rl
+  149  ./isaaclab.sh --install sb3
+  150  ./isaaclab.sh --install skrl
+  151  ./isaaclab.sh --install robomimic
+  152  cd robomimic/
+  153  pip install -e .
+  154  cd ../
+  155  ls
+  156  cd rl_games-python3.11/
+  157  cd ..
+  158  pwd
+  159  cd ~/isaac/IsaacLab/
+  160  cd ..
+  161  ls
+  162  cd rl_games-python3.11/
+  163  pip install -e .
+  164  cd ../
+  165  ./isaaclab.sh --install
+  166  cd IsaacLab/
+  167  ./isaaclab.sh --install
+  168  ./isaaclab.sh -p scripts/tutorials/00_sim/create_empty.py
+  169  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-Ant-v0
+  170  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-Velocity-Rough-Anymal-C-v0
+  171  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-Velocity-Rough-Anymal-C-v0 --headless
+  172  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/play.py   --task Isaac-Velocity-Rough-Anymal-C-Play-v0   --num_envs 1   --headless   --video   --video_length 1000   --checkpoint /home/felix/isaac/IsaacLab/logs/rsl_rl/anymal_c_rough/2026-07-02_03-15-03/model_1499.pt
+  173  pkill -SIGTERM -f "isaaclab"
+  174  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/play.py   --task Isaac-Velocity-Rough-Anymal-C-Play-v0   --num_envs 1   --real-time   --checkpoint /home/felix/isaac/IsaacLab/logs/rsl_rl/anymal_c_rough/2026-07-02_03-15-03/model_1499.pt
+  175  ls
+  176  cd ..
+  177  ls
+  178  cd xMimic/
+  179  ls
+  180  python -m pip install -e source/whole_body_tracking
+  181  ls
+  182  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/play.py   --task Isaac-Velocity-Rough-Anymal-C-Play-v0   --num_envs 1   --real-time   --checkpoint /home/felix/isaac/IsaacLab/logs/rsl_rl/anymal_c_rough/2026-07-02_03-15-03/model_1499.pt
+  183  cd ../IsaacLab/
+  184  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/play.py   --task Isaac-Velocity-Rough-Anymal-C-Play-v0   --num_envs 1   --real-time   --checkpoint /home/felix/isaac/IsaacLab/logs/rsl_rl/anymal_c_rough/2026-07-02_03-15-03/model_1499.pt
+  185  cd ..
+  186  ls
+  187  mkdir motion_data
+  188  cd motion_data/
+  189  hf download lvhaidong/LAFAN1_Retargeting_Dataset LAFAN1
+  190  hf download lvhaidong/LAFAN1_Retargeting_Dataset /LAFAN1
+  191  export HF_ENDPOINT=https://hf-mirror.com
+  192  hf download lvhaidong/LAFAN1_Retargeting_Dataset /LAFAN1
+  193  hf auth login
+  194  hf download lvhaidong/LAFAN1_Retargeting_Dataset /LAFAN1
+  195  hf download lvhaidong/LAFAN1_Retargeting_Dataset --local-dir ./LAFAN1
+  196  git clone https://github.com/LeCAR-Lab/ASAP.git
+  197  hf download lvhaidong/LAFAN1_Retargeting_Dataset --local-dir ./LAFAN1
+  198  hf download lvhaidong/LAFAN1_Retargeting_Dataset --local-dir ./LAFAN1 --repo-type dataset
+  199  cd ../
+  200  cd motion_data/
+  201  git clone https://github.com/Open-X-Humanoid/xGMR.git
+  202  git clone https://gitee.com/fangye-shi/xGMR.git
+  203  sudo apt install obs-studio -y
+  204  ls
+  205  cd ..
+  206  ls
+  207  cd motion_data/
+  208  git clone git@github.com:TeleHuman/PBHC.git
+  209  git clone https://gitee.com/wrc66666/KungFuAthleteBot.git
+  210  git clone git@gitee.com:shujuanjuan173/ubisoft-laforge-animation-dataset.git 222
+  211  git clone https://gitee.com/shujuanjuan173/ubisoft-laforge-animation-dataset.git 222
+  212  cd xGMR/
+  213  mkdir -p data/lafan
+  214  cd data/lafan/
+  215  wget https://github.com/ubisoft/ubisoft-laforge-animation-dataset/raw/master/lafan1/lafan1.zip
+  216  wget https://github.com/ubisoft/ubisoft-laforge-animation-dataset/raw/master/lafan1/lafan1.zip --no-check-certificate
+  217  wget https://gitee.com/shujuanjuan173/ubisoft-laforge-animation-dataset/blob/master/lafan1/lafan1.zip
+  218  wget https://gitee.com/shujuanjuan173/ubisoft-laforge-animation-dataset/blob/master/lafan1/lafan1.zip --no-check-certificate
+  219  git clone git@gitee.com:zhiyezhao/ubisoft-laforge-animation-dataset.git
+  220  git clone https://gitee.com/zhiyezhao/ubisoft-laforge-animation-dataset.git
+  221  pwd
+  222  cd xMimic/
+  223  git clone git@github.com:ubisoft/ubisoft-laforge-animation-dataset.git
+  224  curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+  225  sudo apt install curl
+  226  curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+  227  sudo apt install git-lfs
+  228  git lfs install
+  229  git clone https://github.com/ubisoft/ubisoft-laforge-animation-dataset.git
+  230  git clone https://gitee.com/zhiyezhao/ubisoft-laforge-animation-dataset.git
+  231  git config --global user.name 'shao918516' 
+  232  git config --global user.email 'shao918516@163.com'
+  233  git clone https://gitee.com/shujuanjuan173/ubisoft-laforge-animation-dataset.git
+  234  cd ubisoft-laforge-animation-dataset/
+  235  GIT_LFS_SKIP_SMUDGE=1 git restore --source=HEAD :/
+  236  cd ../
+  237  cd xGMR/data/lafan/
+  238  wget https://mirror.ghproxy.com/https://github.com/ubisoft/ubisoft-laforge-animation-dataset/raw/master/lafan1/lafan1.zip
+  239  git clone git@gitee.com:shujuanjuan173/ubisoft-laforge-animation-dataset.git
+  240  git clone git@gitee.com:shujuanjuan173/ubisoft-laforge-animation-dataset.git 222
+  241  git clone https://gitee.com/shujuanjuan173/ubisoft-laforge-animation-dataset.git
+  242  wget https://gitee.com/shujuanjuan173/ubisoft-laforge-animation-dataset/blob/master/lafan1/lafan1.zip
+  243  wget https://gitee.com/shujuanjuan173/ubisoft-laforge-animation-dataset/blob/master/lafan1/lafan1.zip --no-check-certificate
+  244  wget shturl.cc/fPogGEgD8EXfnUFG7PpuXB4idoJhDBIS8Yf2kL934dYG7Dre1lM8d4gSSklKp9L1NVkrgZ0z8DA36mbsyQA4Z
+  245  git clone https://gitee.com/shujuanjuan173/ubisoft-laforge-animation-dataset.git
+  246  git restore --source=HEAD :/
+  247  git clone https://gitee.com/shao918516/ubisoft-laforge-animation-dataset.git
+  248  git status
+  249  cd ubisoft-laforge-animation-dataset/
+  250  git status
+  251  git restore --source=HEAD :/
+  252  uv pip install xrobotoolkit.sdk
+  253  pip install xrobotoolkit.sdk
+  254  pwd
+  255  ls
+  256  cd ../
+  257  cd ..
+  258  pwd
+  259  vim convert_all.sh 
+  260  ./convert_all.sh 
+  261  chmod +x convert_all.sh 
+  262  ./convert_all.sh 
+  263  cd scripts/
+  264  ls
+  265  cd ../
+  266  cd ..
+  267  source env_isaaclab/bin/activate
+  268  cd xMimic/
+  269  ./convert_all.sh 
+  270  ls
+  271  python /home/felix/isaac/xMimic/scripts/csv_to_npz.py --input_file motion_data/LAFAN1/g1/dance1_subject2.csv --input_fps 30 --output_name dance1_subject2 --output_dir motion_data/LAFAN1/g1_npz --robot_type g1 --headless
+  272  python
+  273  ./convert_all.sh 
+  274  vim convert_all.sh 
+  275  ./convert_all.sh 
+  276  vim convert_all.sh 
+  277  ./convert_all.sh 
+  278  vim convert_all.sh 
+  279  ./convert_all.sh 
+  280  python /home/felix/isaac/xMimic/scripts/csv_to_npz.py --input_file motion_data/LAFAN1/g1/dance1_subject2.csv --input_fps 30 --output_name dance1_subject2 --output_dir motion_data/LAFAN1/g1_npz --robot_type g1 \
+  281  vim convert_all.sh 
+  282  python /home/felix/isaac/xMimic/scripts/csv_to_npz.py --input_file motion_data/LAFAN1/g1/dance1_subject2.csv --input_fps 30 --output_name dance1_subject2 --output_dir motion_data/LAFAN1/g1_npz --robot_type g1 --headless
+  283  ./convert_all.sh 
+  284  cd xGMR/data/lafan/
+  285  unzip lafan1.zip 
+  286  cd ../../
+  287  python scripts/bvh_to_robot.py --bvh_file data/lafan/lafan1/dance1_subject3.bvh --robot dex_evt2 --save_path output/YYW.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  288  echo "export PYTHONPATH=$HOME/isaac/xMimic/xGMR:\$PYTHONPATH" >> ~/.bashrc
+  289  source ~/.bashrc
+  290  cd ../
+  291  ls
+  292  source env_isaaclab/bin/activate
+  293  python scripts/bvh_to_robot.py --bvh_file data/lafan/lafan1/dance1_subject3.bvh --robot dex_evt2 --save_path output/YYW.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  294  cd xMimic/xGMR/
+  295  python scripts/bvh_to_robot.py --bvh_file data/lafan/lafan1/dance1_subject3.bvh --robot dex_evt2 --save_path output/YYW.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  296  ls
+  297  uv pip install cvxpy
+  298  python scripts/bvh_to_robot.py --bvh_file data/lafan/lafan1/dance1_subject3.bvh --robot dex_evt2 --save_path output/YYW.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  299  uv pip install viser
+  300  python scripts/bvh_to_robot.py --bvh_file data/lafan/lafan1/dance1_subject3.bvh --robot dex_evt2 --save_path output/YYW.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  301  uv pip install yourdfpy
+  302  python scripts/bvh_to_robot.py --bvh_file data/lafan/lafan1/dance1_subject3.bvh --robot dex_evt2 --save_path output/YYW.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  303  uv pip install mink
+  304  python scripts/bvh_to_robot.py --bvh_file data/lafan/lafan1/dance1_subject3.bvh --robot dex_evt2 --save_path output/YYW.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  305  python scripts/bvh_to_robot.py --bvh_file data/lafan/dance1_subject3.bvh --robot dex_evt2 --save_path output/YYW.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  306  vim batch_retarget.sh
+  307  ls
+  308  chmod +x batch_retarget.sh 
+  309  ./batch_retarget.sh 
+  310  vim batch_pkl2npz.sh
+  311  chmod +x batch_pkl2npz.sh 
+  312  ./batch_pkl2npz.sh 
+  313  vim batch_pkl2npz.sh
+  314  cd ../
+  315  vim batch_pkl2npz.sh
+  316  ./batch_pkl2npz.sh 
+  317  vim batch_pkl2npz.sh
+  318  ./batch_pkl2npz.sh 
+  319  ls
+  320  PYTHONPATH=. python scripts/gmr_to_npz_inter.py --input_file "output/aiming1_subject1dex_evt2.pkl" --input_fps 30 --frame_range 10 -1 --output_name YYW_motion --output_fps 100 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300
+  321  PYTHONPATH=. python scripts/gmr_to_npz_inter.py --input_file "output/aiming1_subject1dex_evt2.pkl" --input_fps 30 --frame_range 10 -1 --output_name YYW_motion --output_fps 100 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300 --headless
+  322  PYTHONPATH=. python scripts/gmr_to_npz_inter.py --input_file "xGMR/output/aiming1_subject1dex_evt2.pkl" --input_fps 30 --frame_range 10 -1 --output_name YYW_motion --output_fps 100 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300 --headless
+  323  ls
+  324  vim batch_pkl2npz.sh 
+  325  rm -r batch_pkl2npz.sh 
+  326  vim batch_pkl2npz.sh 
+  327  chmod +x batch_pkl2npz.sh 
+  328  ./batch_pkl2npz.sh 
+  329  vim batch_pkl2npz.sh 
+  330  ./batch_pkl2npz.sh 
+  331  PYTHONPATH=. python scripts/gmr_to_npz_inter.py --input_file "xGMR/output/aiming1_subject1dex_evt2.pkl" --input_fps 30 --frame_range 10 -1 --output_name YYW_motion --output_fps 100 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300
+  332  PYTHONPATH=. python scripts/gmr_to_npz_inter.py --input_file "xGMR/motion_pkl/aiming1_subject1dex_evt2.pkl" --input_fps 30 --frame_range 10 -1 --output_name YYW_motion --output_fps 100 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300
+  333  PYTHONPATH=. python scripts/gmr_to_npz_inter.py --input_file "xGMR/motion_pkl/aiming1_subject1dex_evt2.pkl" --input_fps 30 --frame_range 10 -1 --output_name YYW_motion --output_fps 100 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300 --headless
+  334  ./batch_pkl2npz.sh 
+  335  PYTHONPATH=. python scripts/gmr_to_npz_inter.py --input_file "xGMR/motion_pkl/walk3_subject2dex_evt2.pkl" --input_fps 30 --frame_range 10 -1 --output_name walk3_subject2dex_evt2_bvh --output_fps 100 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300 --headless
+  336  uv pip install tensorboard
+  337  pip install tensorboard
+  338  cd xGMR/
+  339  vim batch_train.sh
+  340  chmod +x batch_train.sh 
+  341  ./batch_train.sh 
+  342  vim batch_train.sh
+  343  ./batch_train.sh 
+  344  vim batch_train.sh
+  345  ./batch_train.sh 
+  346  pwd
+  347  cd motion_data/
+  348  pwd
+  349  history
+  350  pkill -SIGTERM -f "isaaclab"
+  351  cd ../
+  352  source env_isaaclab/bin/activate
+  353  cd isaac/
+  354  source env_isaaclab/bin/activate
+  355  cd xMimic/
+  356  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --amp --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/aiming1_subject1dex_evt2_bvh.npz --headless --logger tensorboard
+  357  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/aiming1_subject1dex_evt2_bvh.npz --headless --logger tensorboard
+  358  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2_bvh.npz --headless --logger tensorboard
+  359  cd isaac/
+  360  source env_isaaclab/bin/activate
+  361  ls /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2_bvh.npz
+  362  vim /home/felix/isaac/xMimic/source/whole_body_tracking/whole_body_tracking/tasks/tracking/mdp/commands.py
+  363  cd xMimic/
+  364  cd ../
+  365  ls
+  366  cd xMimic/
+  367  ls
+  368  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2_bvh.npz --headless --logger tensorboard
+  369  cd isaac/
+  370  source env_isaaclab/bin/activate
+  371  vim /home/felix/isaac/xMimic/source/whole_body_tracking/whole_body_tracking/tasks/tracking/mdp/commands.py
+  372  cd xMimic/
+  373  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2_bvh.npz --headless --logger tensorboard
+  374  cd isaac/
+  375  source env_isaaclab/bin/activate
+  376  cd xMimic/
+  377  vim /home/felix/isaac/xMimic/source/whole_body_tracking/whole_body_tracking/tasks/tracking/mdp/commands.py
+  378  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2_bvh.npz --headless --logger tensorboard
+  379  cd isaac/
+  380  source env_isaaclab/bin/activate
+  381  cd xMimic/
+  382  vim /home/felix/isaac/xMimic/source/whole_body_tracking/whole_body_tracking/tasks/tracking/mdp/commands.py
+  383  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2_bvh.npz --headless --logger tensorboard
+  384  cd isaac/
+  385  source env_isaaclab/bin/activate
+  386  vim /home/felix/isaac/xMimic/source/whole_body_tracking/whole_body_tracking/tasks/tracking/mdp/commands.py
+  387  cd xMimic/
+  388  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2_bvh.npz --headless --logger tensorboard
+  389  cd isaac/
+  390  source env_isaaclab/bin/activate
+  391  cd xMimic/
+  392  vim /home/felix/isaac/xMimic/source/whole_body_tracking/whole_body_tracking/tasks/tracking/mdp/commands.py
+  393  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2_bvh.npz --headless --logger tensorboard
+  394  cd isaac/
+  395  source env_isaaclab/bin/activate
+  396  cd xMimic/
+  397  vim /home/felix/isaac/xMimic/source/whole_body_tracking/whole_body_tracking/tasks/tracking/mdp/commands.py
+  398  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2_bvh.npz --headless --logger tensorboard
+  399  cd isaac/
+  400  source env_isaaclab/bin/activate
+  401  cd xMimic/
+  402  vim /home/felix/isaac/xMimic/source/whole_body_tracking/whole_body_tracking/tasks/tracking/mdp/commands.py
+  403  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2_bvh.npz --headless --logger tensorboard
+  404  cd isaac/
+  405  source env_isaaclab/bin/activate
+  406  cd xMimic/
+  407  vim /home/felix/isaac/xMimic/source/whole_body_tracking/whole_body_tracking/tasks/tracking/mdp/commands.py
+  408  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2_bvh.npz --headless --logger tensorboard
+  409  vim /home/felix/isaac/xMimic/source/whole_body_tracking/whole_body_tracking/tasks/tracking/mdp/commands.py
+  410  cd ../
+  411  source env_isaaclab/bin/activate
+  412  cd xMimic/
+  413  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2_bvh.npz --headless --logger tensorboard
+  414  vim /home/felix/isaac/xMimic/source/whole_body_tracking/whole_body_tracking/tasks/tracking/mdp/commands.py
+  415  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2_bvh.npz --headless --logger tensorboard
+  416  cd ..
+  417  source env_isaaclab/bin/activate
+  418  cd xMimic/
+  419  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2_bvh.npz --headless --logger tensorboard
+  420  python
+  421  cd ..
+  422  source env_isaaclab/bin/activate
+  423  python
+  424  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_npz/>>> f2 = "/home/felix/isaac/xMimic/motion_npz/dance1_subject1.npz --headless --logger tensorboard
+  425  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_npz/dance1_subject1.npz --headless --logger tensorboard
+  426  cd xMimic/
+  427  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_npz/dance1_subject1.npz --headless --logger tensorboard
+  428  nvcc -V
+  429  nvidia-smi
+  430  sudo apt install nvidia-cuda-toolkit
+  431  pwd
+  432  ls
+  433  cd ../../../../
+  434  python scripts/replay_npz.py --motion_file motion_npz/aiming1_subject1dex_evt2_bvh.npz
+  435  cd ..
+  436  source env_isaaclab/bin/activate
+  437  cd xMimic/
+  438  python scripts/replay_npz.py --motion_file motion_npz/aiming1_subject1dex_evt2_bvh.npz
+  439  python scripts/replay_npz.py --motion_file motion_npz/dance1_subject1.npz
+  440  python -c "import numpy; print(numpy.__file__)"
+  441  pip show numpy
+  442  pip uninstall numpy -y
+  443  pip install numpy==1.24.3
+  444  python -c "import numpy; print(numpy.__file__)"
+  445  pip uninstall numpy -y
+  446  pip install numpy==1.26.0
+  447  python scripts/replay_npz.py --motion_file motion_npz/dance1_subject1.npz
+  448  python scripts/replay_npz.py --motion_file motion_npz/fallAndGetUp3_subject1.npz
+  449  python scripts/replay_npz.py --motion_file motion_npz/aiming1_subject1dex_evt2_bvh.npz
+  450  cd ..
+  451  source env_isaaclab/bin/activate
+  452  cd xMimic/
+  453  python
+  454  cd ../
+  455  tensorboard 2026-07-04_20-40-02
+  456  cd ../../
+  457  cd ../
+  458  source env_isaaclab/bin/activate
+  459  cd xMimic/logs/rsl_rl/dex_evt_flat/
+  460  tensorboard 2026-07-04_20-40-02
+  461  tensorboard --logdir=2026-07-04_20-40-02
+  462  vim export_onnx_offline.py
+  463  python export_onnx_offline.py 
+  464  cd ../
+  465  source env_isaaclab/bin/activate
+  466  cd xMimic/
+  467  python export_onnx_offline.py 
+  468  vim export_onnx_offline.py 
+  469  pip install pxr
+  470  vim export_offline.py
+  471  PYTHONPATH=. python export_offline.py --task Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --ckpt /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-04_20-40-02/model_0.pt --motion_file /home/felix/isaac/xMimic/motion_npz/dance1_subject1.npz --headless
+  472  rm export_offline.py
+  473  vim export_offline.py
+  474  PYTHONPATH=. python export_offline.py --headless --task Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --ckpt /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-04_20-40-02/model_0.pt --motion_file /home/felix/isaac/xMimic/motion_npz/dance1_subject1.npz
+  475  pwd
+  476  ls
+  477  pwd
+  478  ls
+  479  cd ../../../
+  480  cd ../
+  481  cd /home/felix/isaac/xMimic
+  482  python scripts/rsl_rl/play.py   --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0   --num_envs=2   --load_run=2026-07-05_13-42-08   --checkpoint=model_999.pt   --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/dance1_subject2dex_evt2_bvh.npz
+  483  pwd
+  484  ls
+  485  cd ~/isaac/xMimic/motion_data/
+  486  ls
+  487  pwd
+  488  cd ..
+  489  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-05_18-53-20 --checkpoint=model_2000.pt --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2_bvh.npz.npz
+  490  vim start_evt2.py
+  491  chmod +x start_evt2.py 
+  492  mv start_evt2.py start_evt2.sh
+  493  ./start_evt2.sh 
+  494  cd ../
+  495  source env_isaaclab/bin/activate
+  496  cd xMimic/xSIM_MUJOCO/
+  497  ./start_evt2.sh 
+  498  vim pip install rclpy
+  499  ls
+  500  uv pip install rclpy
+  501  deactivate
+  502  sudo apt update && sudo apt install locales
+  503  sudo locale-gen en_US en_US.UTF-8
+  504  sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+  505  export LANG=en_US.UTF-8
+  506  sudo apt install software-properties-common
+  507  sudo add-apt-repository universe
+  508  sudo apt update && sudo apt install curl gnupg lsb-release
+  509  sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+  510  sudo curl -sSL https://mirrors.tuna.tsinghua.edu.cn/rosdistro/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+  511  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(source /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+  512  sudo apt update
+  513  sudo apt install ros-humble-desktop
+  514  sudo apt install aptitude -y
+  515  sudo aptitude install ros-humble-desktop
+  516  sudo rm -f /etc/apt/sources.list.d/ros2.list
+  517  sudo curl -sSL https://mirrors.tuna.tsinghua.edu.cn/rosdistro/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+  518  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy main" | sudo tee /etc/apt/sources.list.d/ros2.list
+  519  sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+  520  sudo tee /etc/apt/sources.list > /dev/null <<EOF
+  521  deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy main restricted universe multiverse
+  522  deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse
+  523  deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse
+  524  deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-security main restricted universe multiverse
+  525  EOF
+  526  sudo apt clean
+  527  sudo apt update
+  528  sudo apt install ros-humble-ros-base ros-humble-rclpy
+  529  ./start_evt2.sh 
+  530  cd ../
+  531  source env_isaaclab/bin/activate
+  532  cd xMimic/xSIM_MUJOCO/
+  533  ./start_evt2.sh 
+  534  deactivate
+  535  sudo aptitude install ros-humble-desktop
+  536  cd ../../
+  537  source env_isaaclab/bin/activate
+  538  cd xMimic/xSIM_MUJOCO/
+  539  ./start_evt2.sh 
+  540  python
+  541  deactivate
+  542  ./start_evt2.sh 
+  543  vim start_evt2.sh 
+  544  ./start_evt2.sh 
+  545  uv pip install mujoco
+  546  pip install mujoco
+  547  ./start_evt2.sh 
+  548  pip install rclpy
+  549  python3
+  550  source /opt/ros/humble/setup.bash
+  551  python3 -c "import rclpy; print('rclpy 正常')"
+  552  ls /opt/ros/humble/
+  553  python3 -c "import rclpy; print('ROS rclpy 正常')"
+  554  source /opt/ros/humble/setup.bash
+  555  echo $ROS_DISRO
+  556  ls /opt/ros/humble/lib/librcl*.so | head -10
+  557  ls /opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/
+  558  ldd /opt/ros/humble/lib/librcl_logging_spdlog.so | grep spdlog
+  559  dpkg -l | grep spdlog
+  560  python3 -c "import rclpy; print('rclpy OK')"
+  561  ros2 run demo_nodes_cpp talker
+  562  unset VIRTUAL_ENV
+  563  unset PYTHONPATH
+  564  unset LD_LIBRARY_PATH
+  565  unset AMENT_PREFIX_PATH
+  566  unset COLCON_PREFIX_PATH
+  567  unset ROS_PACKAGE_PATH
+  568  source /opt/ros/humble/setup.bash
+  569  python3 -c "import rclpy; print('rclpy OK')"
+  570  ./start_evt2.sh 
+  571  vim start_evt2.sh 
+  572  ./start_evt2.sh 
+  573  vim start_evt2.sh 
+  574  echo "ROS_DISTRO=$ROS_DISTRO"
+  575  python3 -c "import rclpy; print('脚本内rclpy加载成功')"
+  576  python3 scripts/simulator_view_asyn.py -m evt2
+  577  source /home/felix/isaac/xMimic/ros_ws/install/setup.bash
+  578  find /home/felix/isaac/xMimic -name "bodyctrl_msgs" -type d
+  579  find /home/felix/isaac/xMimic -iname "*bodyctrl_msgs*" 2>/dev/null
+  580  find /home/felix/isaac -iname "*bodyctrl_msgs*" 2>/dev/null
+  581  cd /home/felix/isaac/xMimic
+  582  git submodule status
+  583  find /home/felix/isaac/xMimic/xSIM_MUJOCO -iname "README*"
+  584  nvidia-smi
+  585  nvcc -v
+  586  cd isaac/
+  587  source env_isaaclab/bin/activate
+  588  cd xMimic/
+  589  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_npz/dance1_subject1.npz --headless --logger tensorboard
+  590  pip show rsl-rl
+  591  echo $VIRTUAL_ENV
+  592  python -c "import rsl_rl; print(rsl_rl.__file__)"
+  593  python -c "import rsl_rl; print(rsl_rl.__version__)"
+  594  ls -la /home/felix/isaac/env_isaaclab/lib/python3.11/site-packages/rsl_rl*
+  595  pip show rsl_rl-lib
+  596  pip install rsl-rl-lib==4.1.0
+  597  pip install rsl_rl-lib==4.1.0
+  598  pip install rsl_rl-lib==4.0.1
+  599  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_npz/dance1_subject1.npz --headless --logger tensorboard
+  600  pip install rsl_rl-lib==5.0.1
+  601  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_npz/dance1_subject1.npz --headless --logger tensorboard
+  602  python -c "from rsl_rl.modules.mlp import MLPModel; print(MLPModel)"
+  603  pip uninstall rsl-rl-lib -y
+  604  pip install rsl-rl-lib==5.0.1
+  605  python -c "from rsl_rl.modules.mlp import MLPModel; print(MLPModel)"
+  606  python -c "from rsl_rl.modles.mlp import MLPModel; print(MLPModel)"
+  607  python -c "from rsl_rl.models.mlp import MLPModel; print(MLPModel)"
+  608  python -c "from rsl_rl.models.mlp_model import MLPModel; print(MLPModel)"
+  609  PYTHONPATH=. python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=64 --max_iterations 60000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_npz/dance1_subject1.npz --headless --logger tensorboard
+  610  find /home/felix/isaac/xMimic -name "*.yaml" -o -name "*.yml" | grep -E "(config|agent)"
+  611  cat /home/felix/isaac/xMimic/configs/agent/*.yaml
+  612  HYDRA_FULL_ERROR=1 PYTHONPATH=. python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=64     --max_iterations=60000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_npz/dance1_subject1.npz     --headless     --logger tensorboard
+  613  tensorboard --logdir logs/rsl_rl/dex_evt_flat/
+  614  ls
+  615  HYDRA_FULL_ERROR=1 PYTHONPATH=. python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=64     --max_iterations=10000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_npz/dance1_subject1.npz     --headless     --logger tensorboard
+  616  python gmr_to_npz_inter.py --input_file aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 10 -1
+  617  --output_name aiming1_subject1dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 50 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300
+  618  python scripts/gmr_to_npz_inter.py --input_file xGMR/motion_pkl/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 10 -1
+  619  --output_name aiming1_subject1dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 50 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300
+  620  python scripts/gmr_to_npz_inter.py --input_file xGMR/motion_pkl/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 10 -1 --output_name aiming1_subject1dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 50 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300
+  621  python scripts/gmr_to_npz_inter.py --input_file xGMR/motion_pkl/aiming1_subject1d2x_evt2.pkl --input_fps 30 --frame_range 10 -1 --output_name aiming1_subject2dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 5010--robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300 --headless
+  622  python scripts/gmr_to_npz_inter.py --input_file xGMR/motion_pkl/aiming1_subject1d2x_evt2.pkl --input_fps 30 --frame_range 10 -1 --output_name aiming1_subject2dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 100 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300 --headless
+  623  python scripts/gmr_to_npz_inter.py --input_file xGMR/motion_pkl/aiming1_subject2dex_evt2.pkl --input_fps 30 --frame_range 10 -1 --output_name aiming1_subject2dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 100 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300 --headless
+  624  python scripts/gmr_to_npz_inter.py --input_file xGMR/motion_pkl/aiming1_subject4dex_evt2.pkl --input_fps 30 --frame_range 10 -1 --output_name aiming1_subject4dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 100 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300 --headless
+  625  ls
+  626  cd xGMR/
+  627  ls
+  628  vim batch_retarget.sh 
+  629  vim batch_bvh2pkl.sh 
+  630  rm batch_retarget.sh 
+  631  cd ..
+  632  ls
+  633  ./batch_pkl2npz.sh 
+  634  nvidia-smi
+  635  cd logs/rsl_rl/dex_evt_flat/2026-07-04_20-40-02/
+  636  ls
+  637  cd ../../../
+  638  cd ../
+  639  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=logs/rsl_rl/dex_evt_flat/2026-07-04_20-40-02 --checkpoint=model_9999.pt --motion_file /home/felix/isaac/xMimic/motion_npz/g1_npz/dance1_subject1.npz
+  640  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-04_20-40-02 --checkpoint=model_9999.pt --motion_file /home/felix/isaac/xMimic/motion_npz/g1_npz/dance1_subject1.npz
+  641  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run="2026-07-04_20-40-02" --load_checkpoint="model_9999" --motion_file /home/felix/isaac/xMimic/motion_npz/g1_npz/dance1_subject1.npz
+  642  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-04_20-40-02 --checkpoint=model_9999.pt --motion_file /home/felix/isaac/xMimic/motion_npz/g1_npz/dance1_subject1.npz
+  643  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-04_20-40-02 --load_checkpoint=model_9999 --motion_file /home/felix/isaac/xMimic/motion_npz/g1_npz/dance1_subject1.npz
+  644  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-04_20-40-02 agent.load_checkpoint=model_9999.pt --motion_file /home/felix/isaac/xMimic/motion_npz/g1_npz/dance1_subject1.npz
+  645  HYDRA_FULL_ERROR=1 python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-04_20-40-02 --motion_file /home/felix/isaac/xMimic/motion_npz/g1_npz/dance1_subject1.npz agent.actor="{class_name: MLPModel, hidden_dims: [512,256,128], activation: elu}" agent.critic="{class_name: MLPModel, hidden_dims: [512,256,128], activation: elu}"
+  646  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-04_20-40-02 agent.load_checkpoint=model_9999.pt --motion_file /home/felix/isaac/xMimic/motion_npz/g1_npz/dance1_subject1.npz
+  647  python scripts/replay_npz.py --motion_file motion_example/dance1_easy.npz
+  648  python scripts/replay_npz.py --motion_file motion_example/dance2_medium.npz
+  649  python scripts/replay_npz.py --motion_file motion_example/dance2_medium.npz --speed 2
+  650  python scripts/replay_npz.py --motion_file motion_example/dance2_medium.npz --speed 4
+  651  python scripts/replay_npz.py --motion_file motion_example/weibst
+  652  git clone https://github.com/Open-X-Humanoid/xSIM_MUJOCO.git
+  653  python scripts/replay_npz.py --motion_file motion_npz/g1_npz/dance1_subject1.npz --speed 4
+  654  python scripts/replay_npz.py --motion_file motion_npz/bvh_npz/aiming1_subject1dex_evt2_bvh.npz --speed 4
+  655  python scripts/replay_npz.py --motion_file motion_npz/bvh_npz/dance2_subject5dex_evt2_bvh.npz --speed 8
+  656  pip show rsl-rl-lib
+  657  grep -ri "rsl" /home/felix/isaac/xMimic/setup.py /home/felix/isaac/xMimic/requirements.txt 2>/dev/null
+  658  cat /home/felix/isaac/xMimic/source/whole_body_tracking/whole_body_tracking/utils/my_on_policy_runner.py | head -50
+  659  find /home/felix/isaac/xMimic -path "*agents/rsl_rl*cfg*.py"
+  660  pip uninstall rsl-rl-lib -y
+  661  pip install rsl-rl-lib==2.3.1
+  662  python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=128 --max_iterations 1000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/dance1_subject2dex_evt2_bvh.npz --headless --logger tensorboard
+  663  cd /home/felix/isaac/IsaacLab && git describe --tags 2>/dev/null || cat source/isaaclab/isaaclab/__init__.py | grep -i version
+  664  python -c "import isaaclab; print(isaaclab.__file__)"
+  665  grep -n "def get_observations" -A 15 /home/felix/isaac/IsaacLab/source/isaaclab_rl/isaaclab_rl/rsl_rl/vecenv_wrapper.py
+  666  pip uninstall rsl-rl-lib -y
+  667  pip install rsl-rl-lib==5.0.1
+  668  python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=128 --max_iterations 1000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/dance1_subject2dex_evt2_bvh.npz --headless --logger tensorboard
+  669  cd ../
+  670  cd xMimic/
+  671  python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=128 --max_iterations 1000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/dance1_subject2dex_evt2_bvh.npz --headless --logger tensorboard
+  672  python -c "from whole_body_tracking.utils import my_on_policy_runner as m; print(m.__file__)"
+  673  sed -n '1,50p' /home/felix/isaac/xMimic/source/whole_body_tracking/whole_body_tracking/utils/my_on_policy_runner.py
+  674  sed -i 's/self\.alg\.policy/self.alg.actor/g'   /home/felix/isaac/xMimic/source/whole_body_tracking/whole_body_tracking/utils/my_on_policy_runner.py
+  675  sed -i 's/getattr(self\.alg\.actor, "actor_obs_normalizer", None)/getattr(self.alg.actor, "obs_normalizer", None) or getattr(self.alg.actor, "normalizer", None)/g'   /home/felix/isaac/xMimic/source/whole_body_tracking/whole_body_tracking/utils/my_on_policy_runner.py
+  676  grep -n "self.alg" /home/felix/isaac/xMimic/source/whole_body_tracking/whole_body_tracking/utils/my_on_policy_runner.py
+  677  find /home/felix/isaac/xMimic -name "__pycache__" -exec rm -rf {} +
+  678  python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=128 --max_iterations 1000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/dance1_subject2dex_evt2_bvh.npz --headless --logger tensorboard
+  679  cd /home/felix/isaac/xMimic
+  680  python scripts/rsl_rl/play.py   --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0   --num_envs=2   --load_run=2026-07-05_13-42-08   --checkpoint=model_999.pt   --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/dance1_subject2dex_evt2_bvh.npz
+  681  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1024     --max_iterations=10000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2_bvh.npz     --headless     --logger tensorboard  --checkpoint /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-05_17-30-58_aiming2_subject5dex_evt2_bvh/model_199.pt
+  682  find /home/felix/isaac/xMimic -name "__pycache__" -exec rm -rf {} +
+  683  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1024     --max_iterations=10000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2_bvh.npz     --headless     --logger tensorboard  --checkpoint /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-05_17-30-58_aiming2_subject5dex_evt2_bvh/model_199.pt
+  684  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=102536   --max_iterations=10000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2_bvh.npz     --headless     --logger tensorboard  
+  685  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1536   --max_iterations=10000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2_bvh.npz     --headless     --logger tensorboard  
+  686  import numpy as np
+  687  data = np.load("/home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2.npz")
+  688  print(data["body_pos_w"].shape)
+  689  pytho
+  690  python
+  691  cd ..
+  692  source env_isaaclab/bin/activate
+  693  python
+  694  nvidia-smi
+  695  ls
+  696  cd xMimic/
+  697  ls
+  698  ./batch_train.sh 
+  699  chmod +x batch_train_stage1.sh 
+  700  ./batch_train_stage1.sh 
+  701  PYTHONPATH=. python scripts/rsl_rl/train.py -h
+  702  ./batch_train_stage1.sh 
+  703  vim batch_train_stage1.sh 
+  704  ./batch_train_stage1.sh 
+  705  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance2_subject1dex_evt2_bvh.npz
+  706  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance2_subject2dex_evt2_bvh.npz --speed 4
+  707  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance1_subject1dex_evt2_bvh.npz --speed 16
+  708  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance1_subject2dex_evt2_bvh.npz --speed 8
+  709  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance1_subject3dex_evt2_bvh.npz --speed 8
+  710  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance2_subject5dex_evt2_bvh.npz --speed 8
+  711  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance2_subject4dex_evt2_bvh.npz --speed 8
+  712  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance2_subject3dex_evt2_bvh.npz --speed 8
+  713  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance2_subject2dex_evt2_bvh.npz --speed 8
+  714  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance2_subject1dex_evt2_bvh.npz --speed 8
+  715  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance1_subject1dex_evt2_bvh.npz --speed 8
+  716  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance1_subject2dex_evt2_bvh.npz --speed 8
+  717  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance2_subject2dex_evt2_bvh.npz --speed 8
+  718  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance2_subject1dex_evt2_bvh.npz --speed 8
+  719  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/fight1_subject2dex_evt2_bvh.npz --speed 8
+  720  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/fight1_subject1dex_evt2_bvh.npz --speed 8
+  721  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/fight1_subject3dex_evt2_bvh.npz --speed 8
+  722  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/aiming1_subject1dex_evt2_bvh.npz --speed 8
+  723  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-05_18-53-20 --checkpoint=model_2000.pt --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2_bvh.npz.npz
+  724  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-05_18-53-20 --checkpoint=model_2000.pt --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2_bvh.npz
+  725  git clone https://github.com/Open-X-Humanoid/xMIGCS
+  726  git clone https://github.com/Open-X-Humanoid/xMIGCS.git
+  727  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance1_subject2dex_evt2_bvh.npz --speed 4
+  728  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance1_subject2dex_evt2_bvh.npz --speed 8
+  729  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-05_20-58-42 --checkpoint=model_2000.pt --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2_bvh.npz
+  730  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance1_subject2dex_evt2_bvh.npz --speed 4
+  731  nvidia-smi
+  732  ls
+  733  vim batch_train_stage2.sh
+  734  git clone https://github.com/Open-X-Humanoid/xMIGCS.git
+  735  nvidia-smi
+  736  grep -ri "rsl" /home/felix/isaac/xMimic/setup.py /home/felix/isaac/xMimic/requirements.txt 2>/dev/null
+  737  nvidia-smi
+  738  pkill -SIGTERM -f "isaaclab"
+  739  nvidia-smi
+  740  gpg --show-keys /usr/share/keyrings/claude-desktop-archive-keyring.asc
+  741  vim ~/.bashrc 
+  742  snap search claude
+  743  history
+  744  sudo curl -fsSLo /usr/share/keyrings/claude-desktop-archive-keyring.asc https://downloads.claude.ai/claude-desktop/key.asc
+  745  curl -I https://www.google.com
+  746  sudo mv Downloads/key.asc /usr/share/keyrings/claude-desktop-archive-keyring.asc
+  747  /usr/share/keyrings/claude-desktop-archive-keyring.asc
+  748  echo "deb [arch=amd64,arm64 signed-by=/usr/share/keyrings/claude-desktop-archive-keyring.asc] https://downloads.claude.ai/claude-desktop/apt/stable stable main" | sudo tee /etc/apt/sources.list.d/claude-desktop.list
+  749  sudo apt update && sudo apt install claude-desktop
+  750  ls /etc/apt/sources.list.d/ | grep claude
+  751  cat /etc/apt/sources.list.d/claude-desktop.list
+  752  sudo sed -i 's/https:/http:/g' /etc/apt/sources.list.d/claude-desktop.list
+  753  sudo apt update
+  754  sudo sed -i 's|http://downloads.claude.ai|https://downloads.claude.ai|g' /etc/apt/sources.list.d/claude-desktop.list
+  755  sudo apt update
+  756  curl -fsSL https://claude.ai/install.sh | bash
+  757  sudo apt install claude-desktop
+  758  sudo apt update && sudo apt install claude-desktop
+  759  curl -fsSL https://claude.ai/install.sh | bash
+  760  cat /etc/apt/sources.list.d/claude-desktop.list
+  761  apt-cache search claude
+  762  apt-cache search claude | grep -i desktop
+  763  cat /etc/apt/sources.list.d/claude-desktop.list
+  764  apt-cache search claude | grep -i desktop
+  765  curl -fsSL https://claude.ai/install.sh | bash
+  766  wget -O claude-desktop.deb https://downloads.claude.ai/claude-desktop/apt/stable/pool/main/c/claude-desktop/claude-desktop_latest_amd64.deb
+  767  sudo apt update
+  768  flatpak search claude
+  769  snap search claude
+  770  sudo snap install claude-ai-desktop
+  771  cd isaac/
+  772  source env_isaaclab/bin/activate
+  773  cd xMimic/
+  774  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-05_20-58-42 --checkpoint=model_2000.pt --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2_bvh.npz
+  775  curl -fsSL https://claude.ai/install.sh | bash
+  776  sudo snap install claudeai-desktop
+  777  clclaudeai-desktop
+  778  claudeai-desktop
+  779  snap run claudeai-desktop
+  780  ls /snap/bin/ | grep claude
+  781  claude-desktop
+  782  claudeai-desktop.claude-desktop
+  783  uv pip install ffmpeg
+  784  claudeai-desktop.claude-desktop
+  785  sudo apt install ffmpeg libavcodec-extra libavformat-dev libavutil-dev libswscale-dev
+  786  claudeai-desktop.claude-desktop
+  787  snap remove claudeai-desktop 
+  788  snap install claude-ai-desktop
+  789  sudo apt install ~/Downloads/claude-desktop_amd64.deb
+  790  sudo mv ~/Downloads/claude-desktop_amd64.deb /tmp/
+  791  sudo dpkg -i /tmp/claude-desktop_amd64.deb
+  792  tensorboard –logdir=2026-07-05_20-58-42
+  793  tensorboard -–logdir=2026-07-05_20-58-42
+  794  tensorboard -–logdir 2026-07-05_20-58-42
+  795  tensorboard --logdir /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-05_20-58-42
+  796  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-05_20-58-42 --checkpoint=model_2000.pt --motion_file
+  797  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-05_20-58-42 --checkpoint=model_2000.pt --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2_bvh.npz
+  798  cd motion_data/bvh_npz/
+  799  ls
+  800  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-05_20-58-42 --checkpoint=model_2000.pt --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2_bvh.npz
+  801  cd ../../
+  802  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-05_20-58-42 --checkpoint=model_2000.pt --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2_bvh.npz
+  803  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 1 --load_run=2026-07-05_20-58-42 --checkpoint=model_2000.pt --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2_bvh.npz
+  804  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=1 --load_run=2026-07-05_20-58-42 --checkpoint=model_2000.pt --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2_bvh.npz
+  805  python scripts/rsl_rl/train.py   --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0   --num_envs=4096 --max_iterations=20000 --device cuda:0   --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2_bvh.npz   --headless --logger tensorboard   --resume --load_run=2026-07-05_20-58-42 --checkpoint=model_2000.pt
+  806  nvidia-smi
+  807  import numpy as np
+  808  data = np.load("motion_data/dance1_subject2dex_evt2_bvh.npz")
+  809  print(data.files)
+  810  python3
+  811  vim check_motion_data.py
+  812  python3 check_motion_data.py motion_data/dance1_subject2dex_evt2_bvh.npz
+  813  history > history.txt
+  814  cd xGMR/
+  815  cd ../../
+  816  source env_isaaclab/bin/activate
+  817  cd xMimic/xGMR/
+  818  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/dance1_subject2.bvh --robot dex_evt2 --save_path output/YYW.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  819  python -c "import numpy; print('numpy', numpy.__version__)"
+  820  python -c "import cvxpy; print('cvxpy', cvxpy.__version__)"
+  821  python3 -c "import cvxpy; print('cvxpy', cvxpy.__version__)"
+  822  deactivate
+  823  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/dance1_subject2.bvh --robot dex_evt2 --save_path output/YYW.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  824  python3 scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/dance1_subject2.bvh --robot dex_evt2 --save_path output/YYW.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  825  cd ../../
+  826  source env_isaaclab/bin/activate
+  827  pip install "cvxpy<1.5"
+  828  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/dance1_subject2.bvh --robot dex_evt2 --save_path output/YYW.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  829  cd xMimic/xGMR/
+  830  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/dance1_subject2.bvh --robot dex_evt2 --save_path output/YYW.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  831  cd ../../
+  832  cd xMimic/
+  833  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/YYWdex_evt2.pkl --input_fps 30 --frame_range 10 -1 --output_name dance1_subject2dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 100 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300 –headless
+  834  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/YYWdex_evt2.pkl --input_fps 30 --frame_range 10 -1 --output_name dance1_subject2dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 100 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300 –-headless
+  835  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/YYWdex_evt2.pkl --input_fps 30 --frame_range 10 -1 --output_name dance1_subject2dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 100 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300 --headless
+  836  python scripts/replay_npz.py --motion_file motion_data/dance1_subject2dex_evt2.npz
+  837  python scripts/replay_npz.py --motion_file motion_data/dance1_subject2dex_evt2.npz --speed 4
+  838  python check_motion_data.py /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2.npz
+  839  nvidia-smi
+  840  im-config -l
+  841  python scripts/rsl_rl/train.py   --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0   --num_envs=4096 --max_iterations=20000 --device cuda:0   --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2dex_evt2_bvh.npz   --headless --logger tensorboard   --resume true --load_run=2026-07-05_20-58-42 --checkpoint=model_2000.pt
+  842  $ python scripts/gmr_to_npz_inter.py --input_file xGMR/output/YYWdex_evt2.pkl --input_fps 30 --frame_range 10 -1 --output_name dance1_subject2dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 100 --robot dex_evt --start_frames 200 --end_frames 200 --hold_pos 300 --headless --knee_modify --correct_root_pose_coupled
+  843  cd xGMR/
+  844  $ python scripts/gmr_to_npz_inter.py --input_file xGMR/output/YYWdex_evt2.pkl --input_fps 30 --frame_range 10 -1 --output_name dance1_subject2dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 100 --robot dex_evt --start_frames 200 --end_frames 200 --hold_pos 300 --headless --knee_modify --correct_root_pose_coupled
+  845  cd ..
+  846  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/YYWdex_evt2.pkl --input_fps 30 --frame_range 10 -1 --output_name dance1_subject2dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 100 --robot dex_evt --start_frames 200 --end_frames 200 --hold_pos 300 --headless --knee_modify --correct_root_pose_coupled
+  847  claude-desktop --doctor
+  848  rm ~/.cache/claude-desktop-debian/launcher.log
+  849  sed -i '/"oauth:tokenCache"/d' ~/.config/Claude/config.json
+  850  which claude-desktop
+  851  ps aux | grep -i claude | grep -v grep
+  852  pkill -9 claude-desktop
+  853  cat ~/.config/Claude/config.json
+  854  pkill -9 claude-desktop
+  855  ps aux | grep -i claude | grep -v grep
+  856  sudo dpkg -i claude-desktop_amd64.deb 
+  857  cd isaac/xMimic/
+  858  cd scripts/
+  859  vim check_raw_retarget_pkl.py
+  860  cd ../
+  861  python scripts/check_raw_retarget_pkl.py xGMR/output/YYWdex_evt2.pkl
+  862  cd ../
+  863  source env_isaaclab/bin/activate
+  864  cd xMimic/
+  865  python scripts/check_raw_retarget_pkl.py xGMR/output/YYWdex_evt2.pkl
+  866  python check_motion_data.py motion_data/g1_npz/dance1_subject2.npz 
+  867  python /home/felix/isaac/xMimic/scripts/csv_to_npz.py --input_file motion_data/LAFAN1/g1/dance1_subject2.csv --input_fps 30 --output_name dance1_subject2_test --output_dir motion_data/LAFAN1/g1_npz --robot_type g1 --headless
+  868  python scripts/check_motion_data.py motion_data/LAFAN1/g1_npz/dance1_subject2_test.npz
+  869  python check_motion_data.py motion_data/LAFAN1/g1_npz/dance1_subject2_test.npz
+  870  python scripts/replay_npz.py --motion_file motion_data/dance1_subject2_test.npz 
+  871  python scripts/replay_npz.py --motion_file motion_data/dance1_subject2.npz 
+  872  vim check_floor_clipping.py
+  873  python check_floor_clipping.py motion_data/dance1_subject2.npz 
+  874  python /home/felix/isaac/xMimic/scripts/csv_to_npz.py   --input_file motion_data/LAFAN1/g1/dance1_subject2.csv   --input_fps 30   --output_name dance1_subject2_fixed   --output_dir motion_data/LAFAN1/g1_npz   --robot_type g1   --z_offset 0.1823   --headless
+  875  python scripts/replay_npz.py --motion_file motion_data/LAFAN1/g1_npz/dance1_subject2_fixed.npz 
+  876  python scripts/replay_npz.py --motion_file motion_data/LAFAN1/g1_npz/run2_subject1.npz 
+  877  python scripts/replay_npz.py --motion_file motion_data/LAFAN1/g1_npz/dance1_subject1.npz 
+  878  vim test_single_joint.py
+  879  python test_single_joint.py --joint shoulder_pitch_l_joint --value 0.8
+  880  python test_single_joint.py --joint shoulder_pitch_r_joint --value 0.8   # 待测：右边是否对称也反了
+  881  python test_single_joint.py --joint shoulder_yaw_l_joint --value 0.8     # 待测
+  882  python test_single_joint.py --joint elbow_pitch_l_joint --value 0.8
+  883  python /home/felix/isaac/xMimic/scripts/csv_to_npz.py   --input_file motion_data/LAFAN1/g1/dance1_subject2.csv   --input_fps 30   --output_name dance1_subject2_fixed   --output_dir motion_data/LAFAN1/g1_npz   --robot_type g1   --z_offset 0.1823   --headless
+  884  python scripts/replay_npz.py --motion_file motion_data/LAFAN1/g1_npz/dance1_subject1_fixed.npz 
+  885  python scripts/replay_npz.py --motion_file motion_data/LAFAN1/g1_npz/dance1_subject2_fixed.npz 
+  886  python /home/felix/isaac/xMimic/scripts/csv_to_npz.py   --input_file motion_data/LAFAN1/g1/dance1_subject2.csv   --input_fps 30   --output_name dance1_subject2_fixed   --output_dir motion_data/LAFAN1/g1_npz   --robot_type g1   --z_offset 0.1823   --headless
+  887  python scripts/replay_npz.py --motion_file motion_data/LAFAN1/g1_npz/dance1_subject2_fixed.npz 
+  888  python /home/felix/isaac/xMimic/scripts/csv_to_npz.py   --input_file motion_data/LAFAN1/g1/dance1_subject2.csv   --input_fps 30   --output_name dance1_subject2_fixed   --output_dir motion_data/LAFAN1/g1_npz   --robot_type g1   --z_offset 0.1823   --headless
+  889  python scripts/replay_npz.py --motion_file motion_data/LAFAN1/g1_npz/dance1_subject2_fixed.npz 
+  890  ./convert_g1_h1_h12_csv2npz.sh 
+  891  cd xGMR/
+  892  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/dance1_subject2.bvh --robot dex_evt2 --save_path output/dance1_subject2dex_evt2.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  893  python check_raw_retarget_pkl.py output/dance1_subject2dex_evt2dex_evt2.pkl 
+  894  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/dance1_subject2.bvh --robot dex_evt2 --save_path output/dance1_subject2_coll.pkl --motion_fps 30 --add_collision_avoidance False --format "lafan"
+  895  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/dance1_subject2.bvh --robot unitree_g1 --save_path output/dance1_subject2_g1.pkl --motion_fps 30 --add_collision_avoidance False --format "lafan"
+  896  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/dance1_subject2.bvh --robot unitree_g1 --save_path output/dance1_subject2_g1.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  897  cd ../../
+  898  source env_isaaclab/bin/activate
+  899  cd xMimic/xGMR/
+  900  python check_raw_retarget_pkl.py output/dance1_subject2_colldex_evt2.pkl 
+  901  grep -rn "ROBOT_URDF_DICT" /home/felix/isaac/xMimic/xGMR/general_motion_retargeting/
+  902  sed -n '1,60p' /home/felix/isaac/xMimic/xGMR/general_motion_retargeting/motion_retarget.py
+  903  grep -n "dex_evt" /home/felix/isaac/xMimic/xGMR/general_motion_retargeting/params.py
+  904  cd ../
+  905  python scripts/replay_npz.py --motion_file motion_data/dance1_subject2dex_evt2.npz
+  906  cd xGMR/
+  907  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/dance1_subject2.bvh --robot dex_evt2 --save_path output/dance1_subject2_v2fix.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  908  python check_raw_retarget_pkl.py output/dance1_subject2_v2fixdex_evt2.pkl 
+  909  python check_raw_retarget_pkl.py output/dance1_subject2_colldex_evt2.pkl 
+  910  grep -n "use_velocity_limit" scripts/bvh_to_robot.py
+  911  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/dance1_subject2.bvh --robot dex_evt2 --save_path output/dance1_subject2_v2fix.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  912  python check_raw_retarget_pkl.py output/dance1_subject2_v2fixdex_evt2.pkl 
+  913  pip show mink
+  914  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/dance1_subject2.bvh --robot dex_evt2 --save_path output/dance1_subject2_v2fix.pkl --motion_fps 30 --add_collision_avoidance False --format "lafan"
+  915  python minimal_velocity_limit_repro.py assets/dex_evt_2/urdf/dex_evt.xml 
+  916  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/dance1_subject2.bvh --robot dex_evt2 --save_path output/dance1_subject2_v2fix.pkl --motion_fps 30 --add_collision_avoidance False --format "lafan"
+  917  pip install quadprog
+  918  python minimal_velocity_limit_repro.py assets/dex_evt_2/urdf/dex_evt.xml 
+  919  grep -n 'solver = ' minimal_velocity_limit_repro.py
+  920  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/dance1_subject2.bvh --robot dex_evt2 --save_path output/dance1_subject2_v2fix.pkl --motion_fps 30 --add_collision_avoidance False --format "lafan"
+  921  python minimal_velocity_limit_repro.py assets/dex_evt_2/urdf/dex_evt.xml 
+  922  python -c "import mujoco; print(mujoco.__version__)"
+  923  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/dance1_subject2.bvh --robot dex_evt2 --save_path output/dance1_subject2_v2fix.pkl --motion_fps 30 --add_collision_avoidance False --format "lafan"
+  924  python check_raw_retarget_pkl.py output/dance1_subject2_v2fixdex_evt2.pkl 
+  925  cd ../
+  926  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fix_dex_evt2.pkl --input_fps 30 --frame_range 10 -1 --output_name dance1_subject2_v2fix_dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 100 --robot dex_evt2 --start_frames 100 --end_frames 50 --hold_pos 300 --headless
+  927  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fix_dex_evt2.pkl --input_fps 30 --frame_range 10 -1 --output_name dance1_subject2_v2fix_dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 90 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300 --headless
+  928  nvidia-smi
+  929  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096   --max_iterations=20000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/dance1_subject2_v2fix_dex_evt2.npz     --headless     --logger tensorboard
+  930  cd xGMR/
+  931  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/dance1_subject2.bvh --robot dex_evt2 --save_path output/dance1_subject2_v2fix.pkl --motion_fps 30 --add_collision_avoidance False --format "lafan"
+  932  python check_raw_retarget_pkl.py output/dance1_subject2_v2fixdex_evt2.pkl 
+  933  cd ..
+  934  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fix_dex_evt2.pkl --input_fps 30 --frame_range 10 -1 --output_name dance1_subject2_v2fix_dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 90 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300 --headless
+  935  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096   --max_iterations=30000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/dance1_subject2_v2fix_dex_evt2.npz     --headless     --logger tensorboard
+  936  pwd
+  937  cd ..
+  938  tensorboard --logdir=2026-07-08_16-05-18
+  939  source ~/isaac/env_isaaclab/bin/activate
+  940  tensorboard --logdir=2026-07-08_16-05-18
+  941  python -c "import rsl_rl.modules.distribution as d; print(d.__file__)"
+  942  ls
+  943  pwd
+  944  cd /home/felix/isaac/xMimic/xGMR/motion_pkl
+  945  for f in walk1_subject1 walk1_subject2 walk1_subject5          walk2_subject1 walk2_subject3 walk2_subject4          walk3_subject1 walk3_subject2 walk3_subject3 walk3_subject4 walk3_subject5          walk4_subject1          run1_subject2 run1_subject5 run2_subject1 run2_subject4 sprint1_subject2 sprint1_subject4          aiming1_subject1 aiming1_subject4 aiming2_subject2 aiming2_subject3 aiming2_subject5; do   echo "=== $f ===";   python check_raw_retarget_pkl.py ${f}dex_evt2.pkl 2>/dev/null | grep -E "root 线速度|跳变 > 5.0°|max jump"; done
+  946  cd /home/felix/isaac/xMimic/xGMR/motion_pkl
+  947  for f in walk1_subject1 walk1_subject2 walk1_subject5          walk2_subject1 walk2_subject3 walk2_subject4          walk3_subject1 walk3_subject2 walk3_subject3 walk3_subject4 walk3_subject5          walk4_subject1          run1_subject2 run1_subject5 run2_subject1 run2_subject4 sprint1_subject2 sprint1_subject4          aiming1_subject1 aiming1_subject4 aiming2_subject2 aiming2_subject3 aiming2_subject5; do   echo "=== $f ===";   python check_raw_retarget_pkl.py ${f}dex_evt2.pkl 2>/dev/null | grep -E "root 线速度|跳变 > 5.0°|max jump"; done
+  948  cd /home/felix/isaac/xMimic/xGMR/motion_pkl
+  949  for f in walk1_subject1 walk1_subject2 walk1_subject5          walk2_subject1 walk2_subject3 walk2_subject4          walk3_subject1 walk3_subject2 walk3_subject3 walk3_subject4 walk3_subject5          walk4_subject1          run1_subject2 run1_subject5 run2_subject1 run2_subject4 sprint1_subject2 sprint1_subject4          aiming1_subject1 aiming1_subject4 aiming2_subject2 aiming2_subject3 aiming2_subject5; do   echo "=== $f ===";   python check_raw_retarget_pkl.py ${f}dex_evt2.pkl | grep -E "root 线速度|跳变 > 5.0°|max jump"; done
+  950  pwd
+  951  cd /home/felix/isaac/xMimic/xGMR/motion_pkl for f in walk1_subject1 walk1_subject2 walk1_subject5 \ walk2_subject1 walk2_subject3 walk2_subject4 \ walk3_subject1 walk3_subject2 walk3_subject3 walk3_subject4 walk3_subject5 \ walk4_subject1 \ run1_subject2 run1_subject5 run2_subject1 run2_subject4 sprint1_subject2 sprint1_subject4 \ aiming1_subject1 aiming1_subject4 aiming2_subject2 aiming2_subject3 aiming2_subject5; do echo "=== $f ===" python /home/felix/isaac/xMimic/xGMR/check_raw_retarget_pkl.py ${f}dex_evt2.pkl | grep -E "root 线速度|跳变 > 5.0°|max jump" done
+  952  for f in walk1_subject1 walk1_subject2 walk1_subject5 \ walk2_subject1 walk2_subject3 walk2_subject4 \ walk3_subject1 walk3_subject2 walk3_subject3 walk3_subject4 walk3_subject5 \ walk4_subject1 \ run1_subject2 run1_subject5 run2_subject1 run2_subject4 sprint1_subject2 sprint1_subject4 \ aiming1_subject1 aiming1_subject4 aiming2_subject2 aiming2_subject3 aiming2_subject5; do echo "=== $f ===" python /home/felix/isaac/xMimic/xGMR/check_raw_retarget_pkl.py ${f}dex_evt2.pkl | grep -E "root 线速度|跳变 > 5.0°|max jump" done exit; exit()
+  953  for f in walk1_subject1 walk1_subject2 walk1_subject5          walk2_subject1 walk2_subject3 walk2_subject4          walk3_subject1 walk3_subject2 walk3_subject3 walk3_subject4 walk3_subject5          walk4_subject1          run1_subject2 run1_subject5 run2_subject1 run2_subject4 sprint1_subject2 sprint1_subject4          aiming1_subject1 aiming1_subject4 aiming2_subject2 aiming2_subject3 aiming2_subject5; do   echo "=== $f ===";   python check_raw_retarget_pkl.py ${f}dex_evt2.pkl | grep -E "root 线速度|跳变 > 5.0°|max jump"; done
+  954  conda env list
+  955  python3 -m venv /tmp/checkenv
+  956  source /tmp/checkenv/bin/activate
+  957  pip install numpy matplotlib
+  958  cd /home/felix/isaac/xMimic/xGMR/motion_pkl
+  959  for f in walk1_subject1 walk1_subject2 walk1_subject5          walk2_subject1 walk2_subject3 walk2_subject4          walk3_subject1 walk3_subject2 walk3_subject3 walk3_subject4 walk3_subject5          walk4_subject1          run1_subject2 run1_subject5 run2_subject1 run2_subject4 sprint1_subject2 sprint1_subject4          aiming1_subject1 aiming1_subject4 aiming2_subject2 aiming2_subject3 aiming2_subject5; do   echo "=== $f ===";   python check_raw_retarget_pkl.py ${f}dex_evt2.pkl | grep -E "root 线速度|跳变 > 5.0°|max jump"; done
+  960  for f in walk1_subject1 walk1_subject2 walk1_subject5          walk2_subject1 walk2_subject3 walk2_subject4          walk3_subject1 walk3_subject2 walk3_subject3 walk3_subject4 walk3_subject5          walk4_subject1          run1_subject2 run1_subject5 run2_subject1 run2_subject4 sprint1_subject2 sprint1_subject4          aiming1_subject1 aiming1_subject4 aiming2_subject2 aiming2_subject3 aiming2_subject5; do   echo "=== $f ===";   python3 check_raw_retarget_pkl.py ${f}dex_evt2.pkl | grep -E "root 线速度|跳变 > 5.0°|max jump"; done
+  961  history
+  962  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/walk3_subject3.bvh --robot dex_evt2 --save_path output/walk3_subject3.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  963  cd ..
+  964  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/walk3_subject3.bvh --robot dex_evt2 --save_path output/walk3_subject3.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  965  cd ../
+  966  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/walk3_subject3.bvh --robot dex_evt2 --save_path output/walk3_subject3.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  967  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/walk4_subject1.bvh --robot dex_evt2 --save_path output/walk4_subject1.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  968  python scripts/bvh_to_robot.py --bvh_file motion_bvh/lafan/aiming1_subject1.bvh --robot dex_evt2 --save_path output/aiming1_subject1.pkl --motion_fps 30 --add_collision_avoidance True --format "lafan"
+  969  history
+  970  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 10 -1 --output_name aiming1_subject1dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 90 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300 --headless
+  971  cd ../
+  972  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 10 -1 --output_name aiming1_subject1dex_evt2 --output_dir /home/felix/isaac/xMimic/motion_data/bvh_npz --output_fps 90 --robot dex_evt --start_frames 100 --end_frames 50 --hold_pos 300 --headless
+  973  history
+  974  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096   --max_iterations=20000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2.npz     --headless     --logger tensorboard
+  975  python -c "from whole_body_tracking.tasks.tracking import mdp; print(hasattr(mdp, 'anneal_termination_threshold'))"
+  976  nvidia-smi
+  977  cd ..
+  978  source env_isaaclab/bin/activate
+  979  cd xMimic/
+  980  nvidia-smi
+  981  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-08_16-05-18 --checkpoint=model_2000.pt --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2.npz
+  982  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096   --max_iterations=20000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2.npz     --headless     --logger tensorboard
+  983  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-09_01-09-13 --checkpoint=model_2000.pt --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2.npz
+  984  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-09_01-4-35-49 --checkpoint=model_200.pt --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2.npz
+  985  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-09_04-35-49 --checkpoint=model_200.pt --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2.npz
+  986  grep -n "joint_position_range" source/whole_body_tracking/whole_body_tracking/tasks/tracking/tracking_env_cfg.py
+  987  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-09_05-25-26 --checkpoint=model_600.pt --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2.npz
+  988  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-09_04-35-49 --checkpoint=model_200.pt --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2.npz
+  989  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-09_05-25-26 --checkpoint=model_600.pt --motion_file /home/felix/isaac/xMimic/motion_data/bvh_npz/aiming1_subject1dex_evt2.npz
+  990  cd isaac/
+  991  source env_isaaclab/bin/activate
+  992  cd xMimic/
+  993  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/aiming1_subject1dex_evt2.npz 
+  994  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/aiming1_subject1dex_evt2.npz --speed 4
+  995  python scripts/replay_npz.py --motion_file motion_data/bvh_npz/dance1_subject2dex_evt2.npz --speed 4
+  996  python scripts/replay_npz.py --motion_file motion_data/g1_npz/dance1_subject2.npz --speed 4
+  997  python scripts/replay_npz.py --motion_file motion_data/g1_npz/dance1_subject1.npz --speed 4
+  998  python scripts/replay_npz.py --motion_file motion_data/LAFAN1/g1_npz/dance1_subject1.npz --speed 4
+  999  python scripts/replay_npz.py --motion_file motion_data/LAFAN1/g1_npz/dance1_subject2.npz --speed 4
+ 1000  python scripts/replay_npz.py --motion_file motion_data/LAFAN1/h1_npz/dance1_subject2.npz --speed 4
+ 1001  python scripts/replay_npz.py --motion_file motion_data/LAFAN1/g1_npz/dance1_subject2_fixed.npz --speed 4
+ 1002  history
+ 1003  history > history.txt
+ 1004  python check_motion_data.py motion_data/LAFAN1/g1_npz/dance1_subject2_fixed.npz 
+ 1005  python check_motion_data.py xGMR/motion_npz/dance1_subject2dex_evt2_bvh.npz 
+ 1006  python check_motion_data.py motion_data/aiming1_subject1dex_evt2.npz 
+ 1007  python scripts/replay_npz.py --motion_file motion_data/aiming1_subject1dex_evt2.npz 
+ 1008  cd ..
+ 1009  souce env_isaaclab/bin/activate
+ 1010  source env_isaaclab/bin/activate
+ 1011  python scripts/replay_npz.py --motion_file motion_data/aiming1_subject1dex_evt2.npz 
+ 1012  cd xMimic/
+ 1013  python scripts/replay_npz.py --motion_file motion_data/aiming1_subject1dex_evt2.npz 
+ 1014  python scripts/replay_npz.py --motion_file motion_data/aiming1_subject1dex_evt2.npz --speed -4
+ 1015  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096   --max_iterations=20000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_data/aiming1_subject1dex_evt2.npz     --headless     --logger tensorboard
+ 1016  python check_motion_data.py xGMR/motion_npz/dance1_subject2dex_evt2_bvh.npz 
+ 1017  python check_motion_data.py motion_data/aiming1_subject1dex_evt2.npz 
+ 1018  python check_motion_data.py motion_data/dance1_subject2_test.npz 
+ 1019  python check_motion_data.py motion_data/dance1_subject2_v2fix_dex_evt2.npz 
+ 1020  python check_motion_data.py motion_data/LAFAN1/g1_npz/dance1_subject2_fixed.npz 
+ 1021  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096   --max_iterations=20000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_data/LAFAN1/g1_npz/dance1_subject2_fixed.npz     --headless     --logger tensorboard
+ 1022  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-10_01-20-17 --checkpoint=model_200.pt --motion_file /home/felix/isaac/xMimic/motion_data/aiming1_subject1dex_evt2.npz
+ 1023  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-10_01-2045-54-checkpoint=model_200.pt --motion_file /home/felix/isaac/xMimic/motion_data/LAFAN1/g1_npz/dance1_subject2_fixed.npz
+ 1024  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-10_01-45-54 --checkpoint=model_1000.pt --motion_file /home/felix/isaac/xMimic/motion_data/LAFAN1/g1_npz/dance1_subject2_fixed.npz
+ 1025  vim check_npz.py
+ 1026  python check_npz.py motion_data/aiming1_subject1dex_evt2.npz 
+ 1027  vim check_npz.py 
+ 1028  python check_npz.py motion_data/aiming1_subject1dex_evt2.npz 
+ 1029  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-10_01-45-54 --checkpoint=model_1000.pt --motion_file /home/felix/isaac/xMimic/motion_data/LAFAN1/g1_npz/dance1_subject2_fixed.npz
+ 1030  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-1010_01-20-17 --checkpoint=model_10200.pt --motion_file /home/felix/isaac/xMimic/motion_data/aiming1_subject1dex_evt2.npz 
+ 1031  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-10_01-20-17 --checkpoint=model_10200.pt --motion_file /home/felix/isaac/xMimic/motion_data/aiming1_subject1dex_evt2.npz 
+ 1032  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-10_01-20-17 --checkpoint=model_200.pt --motion_file /home/felix/isaac/xMimic/motion_data/aiming1_subject1dex_evt2.npz 
+ 1033  python check_npz.py motion_data/aiming1_subject1dex_evt2.npz 
+ 1034  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-10_01-20-17 --checkpoint=model_200.pt --motion_file /home/felix/isaac/xMimic/motion_data/aiming1_subject1dex_evt2.npz 
+ 1035  grep -n "init_state" -A 5 source/whole_body_tracking/robots/dex_evt.py | head
+ 1036  grep -n "init_state" -A 5 source/whole_body_tracking/whole_body_tracking/robots/dex_evt.py | head
+ 1037  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-10_01-20-17 --checkpoint=model_200.pt --motion_file /home/felix/isaac/xMimic/motion_data/aiming1_subject1dex_evt2.npz 
+ 1038  grep -n "terrain" -B 2 -A 8 source/whole_body_tracking/whole_body_tracking/tasks/tracking/tracking_env_cfg.py source/whole_body_tracking/whole_body_tracking/tasks/tracking/config/dex_evt/flat_env_cfg.py
+ 1039  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-10_01-20-17 --checkpoint=model_200.pt --motion_file /home/felix/isaac/xMimic/motion_data/aiming1_subject1dex_evt2.npz 
+ 1040  python check_motion_data.py motion_data/dance1_subject2_v2fix_dex_evt2.npz 
+ 1041  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096   --max_iterations=20000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_data/dance1_subject2_v2fix_dex_evt2.npz     --headless     --logger tensorboard
+ 1042  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096   --max_iterations=20000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_data/aiming1_subject1dex_evt2.npz     --headless     --logger tensorboard
+ 1043  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-10_11-14-48 --checkpoint=model_200.pt --motion_file /home/felix/isaac/xMimic/motion_data/aiming1_subject1dex_evt2.npz 
+ 1044  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-10_11-42-02 --checkpoint=model_7200.pt --motion_file /home/felix/isaac/xMimic/motion_data/aiming1_subject1dex_evt2.npz 
+ 1045  python scripts/replay_npz.py --motion_file motion_example/dance1_easy.npz 
+ 1046  python scripts/replay_npz.py --motion_file motion_example/dance2_medium.npz --speed 3
+ 1047  python scripts/replay_npz.py --motion_file motion_example/weibst_hard.npz --speed 3
+ 1048  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-10_11-42-02 --checkpoint=model_7200.pt --motion_file /home/felix/isaac/xMimic/motion_data/aiming1_subject1dex_evt2.npz 
+ 1049  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096   --max_iterations=20000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_example/weibst_hard.npz     --headless     --logger tensorboard
+ 1050  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096   --max_iterations=20000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_example/dance1_easy..npz     --headless     --logger tensorboard
+ 1051  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096   --max_iterations=20000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/motion_example/dance1_easy.npz     --headless     --logger tensorboard
+ 1052  python check_npz.py motion_example/weibst_hard.npz 
+ 1053  python scripts/replay_npz.py motion_data/aiming1_subject1dex_evt2.npz 
+ 1054  python scripts/replay_npz.py --motion_file motion_data/aiming1_subject1dex_evt2.npz 
+ 1055  python scripts/replay_npz.py --motion_file motion_data/aiming1_subject1dex_evt2.npz --speed 3
+ 1056  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 30 3030 --output_name aiming1_subject1_dex_evt2_01 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 90 --end_frames 90 --hold_pos 90 --headless
+ 1057  python scripts/replay_npz.py --motion_file xGMR/motion_npz/aiming1_subject1_dex_evt2_01.npz 
+ 1058  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 30 30930 -output_name aiming1_subject1_dex_evt2_01 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 90 --end_frames 90 --hold_pos 90 --headless
+ 1059  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 30 930 --output_name aiming1_subject1_dex_evt2_01 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 90 --end_frames 90 --hold_pos 90 --headless
+ 1060  python scripts/replay_npz.py --motion_file xGMR/motion_npz/aiming1_subject1_dex_evt2_01.npz 
+ 1061  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 301600 2800 --output_name aiming1_subject1_dex_evt2_02 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 90 --end_frames 90 --hold_pos 90 --headless
+ 1062  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 1600 2800 --output_name aiming1_subject1_dex_evt2_02 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 90 --end_frames 90 --hold_pos 90 --headless
+ 1063  python scripts/replay_npz.py --motion_file xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz 
+ 1064  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 160540 2440 --output_name aiming1_subject1_dex_evt2_02 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 90 --end_frames 90 --hold_pos 90 --headless
+ 1065  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 1540 2440 --output_name aiming1_subject1_dex_evt2_02 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 90 --end_frames 90 --hold_pos 90 --headless
+ 1066  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 160540 2440 --output_name aiming1_subject1_dex_evt2_02 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 90 --end_frames 90 --hold_pos 90 --headless
+ 1067  python scripts/replay_npz.py --motion_file xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz 
+ 1068  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 165000 5900 --output_name aiming1_subject1_dex_evt2_02 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 90 --end_frames 90 --hold_pos 90 --headless
+ 1069  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 5000 5900 --output_name aiming1_subject1_dex_evt2_02 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 90 --end_frames 90 --hold_pos 90 --headless
+ 1070  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 1540 2440 --output_name aiming1_subject1_dex_evt2_02 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 90 --end_frames 90 --hold_pos 90 --headless
+ 1071  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 5000 5900 --output_name aiming1_subject1_dex_evt2_03 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 90 --end_frames 90 --hold_pos 90 --headless
+ 1072  python scripts/replay_npz.py --motion_file xGMR/motion_npz/aiming1_subject1_dex_evt2_03.npz 
+ 1073  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range  5000 5990 --output_name aiming1_subject1_dex_evt2_03 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 90 --end_frames 90 --hold_pos 90 --headless
+ 1074  python scripts/replay_npz.py --motion_file xGMR/motion_npz/aiming1_subject1_dex_evt2_03.npz 
+ 1075  python scripts/replay_npz.py --motion_file xGMR/motion_npz/aiming1_subject1_dex_evt2_01.npz --speed 3
+ 1076  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096   --max_iterations=20000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz     --headless     --logger tensorboard
+ 1077  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-11_03-34-22 --checkpoint=model_200.pt --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz 
+ 1078  cd ..
+ 1079  source env_isaaclab/bin/activate
+ 1080  cd xMimic/
+ 1081  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-11_03-34-22 --checkpoint=model_200.pt --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz 
+ 1082  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-11_03-34-22 --checkpoint=model_10800.pt --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz 
+ 1083  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-11_11-09-02-checkpoint=model_1000.pt --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz 
+ 1084  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-11_11-09-02 --checkpoint=model_1000.pt --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz 
+ 1085  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-11_11-09-029-02 --checkpoint=model_6000.pt --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz 
+ 1086  nvidia-smi
+ 1087  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-11_11-09-02 --checkpoint=model_6000.pt --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz 
+ 1088  nvidia-smi
+ 1089  cd isaac/
+ 1090  cd xMimic/
+ 1091  cd ..
+ 1092  source env_isaaclab/bin/activate
+ 1093  cd xMimic/
+ 1094  nvidia-smi
+ 1095  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=8192   --max_iterations=100000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz     --headless     --logger tensorboard  --checkpoint /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-11_11-09-02/model_9000.pt
+ 1096  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=8192   --max_iterations=100000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz     --headless     --logger tensorboard  --checkpoint /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-11_11-09-02/model_9000.pt --resume true
+ 1097  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=16384 --max_iterations=100000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz     --headless     --logger tensorboard  --checkpoint /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-11_11-09-02/model_9000.pt --resume true
+ 1098  python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=16384 --max_iterations=100000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz --headless --logger tensorboard --checkpoint /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-11_11-09-02/model_9000.pt --resume
+ 1099  --logdir /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-11_11-09-02
+ 1100  python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=16384 --max_iterations=100000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz --headless --logger tensorboard --checkpoint /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-11_11-09-02/model_9000.pt --resume --logdir /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-11_11-09-02
+ 1101  python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=16384 --max_iterations=100000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz --headless --logger tensorboard --checkpoint /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-11_11-09-02/model_9000.pt --logdir /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-11_11-09-02
+ 1102  --resume
+ 1103  python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=16384 --max_iterations=100000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz --headless --logger tensorboard --checkpoint /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-11_11-09-02/model_9000.pt --resume
+ 1104  python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=16384 --max_iterations=100000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz --headless --logger tensorboard --checkpoint /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-11_11-09-02/model_9000.pt --resume true
+ 1105  python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=16384 --max_iterations=100000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz --headless --logger tensorboard agent.load_run="2026-07-11_11-09-02" agent.load_checkpoint="model_9000.pt"
+ 1106  python scripts/rsl_rl/train.py agent.load_run="2026-07-11_11-09-02" agent.load_checkpoint="model_9000.pt" --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=16384 --max_iterations=100000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz --headless --logger tensorboard
+ 1107  history
+ 1108  python scripts/rsl_rl/train.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=16384 --max_iterations=100000 --device cuda:0 --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz --headless --logger tensorboard --checkpoint /home/felix/isaac/xMimic/logs/rsl_rl/dex_evt_flat/2026-07-11_11-09-02/model_9000.pt
+ 1109  nvidia-smi
+ 1110  grep -n "episode_length_s" source/whole_body_tracking/whole_body_tracking/tasks/tracking/tracking_env_cfg.py
+ 1111  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-11_11-09-02 --checkpoint=model_9000.pt --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz 
+ 1112  cd ../
+ 1113  source env_isaaclab/bin/activate
+ 1114  cd xMimic/
+ 1115  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=8192     --max_iterations=50000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz     --headless --logger tensorboard     --resume True     --load_run 2026-07-11_11-09-02     --checkpoint model_9000.pt
+ 1116  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=50000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz     --headless --logger tensorboard     --resume True     --load_run 2026-07-11_11-09-02     --checkpoint model_9200.pt
+ 1117  python scripts/rsl_rl/play.py --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 --num_envs=2 --load_run=2026-07-11_11-09-02 --checkpoint=model_9000.pt --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz 
+ 1118  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=50000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz     --headless --logger tensorboard     --resume True     --load_run 2026-07-11_11-09-02     --checkpoint model_9000.pt
+ 1119  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-11_23-48-31     --checkpoint=model_18800.pt     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz     --video --video_length 4000     --headless
+ 1120  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-11_23-48-31     --checkpoint=model_18800.pt     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz     --video --video_length 4000     --headless    --viewer_origin_type asset_root --viewer_asset_name robot  --viewer_eye 2.5 2.5 1.5 --viewer_lookat 0.0 0.0 0.8
+ 1121  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-11_23-48-31     --checkpoint=model_18800.pt     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz     --video --video_length 4000     --headless
+ 1122  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-11_23-48-31     --checkpoint=model_18800.pt     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz
+ 1123  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-11_23-48-31     --checkpoint=model_18800.pt     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz     --video --video_length 4000     --headless
+ 1124  ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of csv=p=0 rl-video-step-0_01.mp4 
+ 1125  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-11_03-34-22     --checkpoint=model_11800.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz     --video --video_length 12000     --headless
+ 1126  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-11_03-34-22     --checkpoint=model_11800.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_02.npz
+ 1127  history > history.txt
+ 1128  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 1540 1840 --output_name aiming1_subject1_dex_evt2_04 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 90 --end_frames 90 --hold_pos 90 --headless
+ 1129  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 1540 1840 --output_name aiming1_subject1_dex_evt2_04 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless
+ 1130  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz  --speed 3
+ 1131  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 1540 1870 --output_name aiming1_subject1_dex_evt2_04 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless
+ 1132  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz  --speed 3
+ 1133  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/aiming1_subject1dex_evt2.pkl --input_fps 30 --frame_range 1540 1810 --output_name aiming1_subject1_dex_evt2_04 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless
+ 1134  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz  --speed 3
+ 1135  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=50000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_024npz     --headless --logger tensorboard 
+ 1136  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=50000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04npz     --headless --logger tensorboard 
+ 1137  nvidia-smi
+ 1138  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-12_12-01-45     --checkpoint=model_3400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1139  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz  --speed 2
+ 1140  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-12_12-01-45     --checkpoint=model_4000.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1141  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz  --speed 2
+ 1142  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=50000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz     --headless --logger tensorboard 
+ 1143  grep -n "wrist" source/whole_body_tracking/whole_body_tracking/tasks/tracking/config/dex_evt/flat_env_cfg.py
+ 1144  python
+ 1145  grep -n "class DEX_EVT_CFG\|wrist" source/whole_body_tracking/whole_body_tracking/robots/dex_evt.py | head -20
+ 1146  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-12_18-26-30     --checkpoint=model_2800.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1147  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-12_18-26-30     --checkpoint=model_2800.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz         --video --video_length 4000     --headless
+ 1148  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-12_18-26-30     --checkpoint=model_2800.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1149  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-12_18-26-30     --checkpoint=model_2800.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz         --video --video_length 4000     --headless
+ 1150  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-12_18-26-30     --checkpoint=model_2800.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1151  nvidia
+ 1152  nvidia-smi
+ 1153  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-12_18-26-30     --checkpoint=model_2800.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz         --video --video_length 4000     --headless
+ 1154  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-12_18-26-30     --checkpoint=model_12000.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1155  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-12_18-26-30     --checkpoint=model_212200.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz         --video --video_length 4000     --headless
+ 1156  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-12_18-26-30     --checkpoint=model_12400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz         --video --video_length 4000     --headless
+ 1157  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=40000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz     --headless --logger tensorboard 
+ 1158  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_06-28-24     --checkpoint=model_1400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1159  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_06-28-24     --checkpoint=model_2200.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1160  cd ..
+ 1161  source env_isaaclab/bin/activate
+ 1162  cd xMimic/
+ 1163  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_06-28-24     --checkpoint=model_2200.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1164  cd isaac/
+ 1165  source env_isaaclab/bin/activate
+ 1166  cd xMimic/
+ 1167  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=40000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz     --headless --logger tensorboard 
+ 1168  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_15-08-38     --checkpoint=model_2600.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1169  cd ..
+ 1170  source env_isaaclab/bin/activate
+ 1171  cd xMimic/
+ 1172  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_15-08-38     --checkpoint=model_2600.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1173  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_15-8-06-11   --checkpoint=model_3400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1174  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_18-06-11   --checkpoint=model_3400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1175  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_15-8-06-11   --checkpoint=model_3400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz          --video --video_length 4000     --headless
+ 1176  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_18-06-11   --checkpoint=model_3400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz          --video --video_length 4000     --headless
+ 1177  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_21-32-25   --checkpoint=model_1400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz          --video --video_length 4000     --headless
+ 1178  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_21-32-25   --checkpoint=model_1400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1179  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_21-32-25   --checkpoint=model_2600.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1180  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_21-32-25   --checkpoint=model_3600.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1181  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_21-32-25   --checkpoint=model_4000.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1182  history > history.txt
+ 1183  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_21-32-25   --checkpoint=model_4052.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1184  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_21-32-25   --checkpoint=model_5200.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1185  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_21-32-25   --checkpoint=model_5200.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz    --video --video_length 4000     --headless
+ 1186  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-13_03-19-22   --checkpoint=model_5400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz    --video --video_length 20000     --headless
+ 1187  cd ..
+ 1188  source env_isaaclab/bin/activate
+ 1189  cd xMimic/
+ 1190  python check_npz.py --motion_file=motion_data/dance1_subject2_v2fix_dex_evt2.npz 
+ 1191  python check_npz.py motion_data/dance1_subject2_v2fix_dex_evt2.npz 
+ 1192  nvidia-smi
+ 1193  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-14_03-19-22   --checkpoint=model_5400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz    --video --video_length 20000     --headless
+ 1194  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=50000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz     --headless --logger tensorboard     --resume True     --load_run 2026-07-13_21-32-25     --checkpoint model_5200.pt
+ 1195  python scripts/replay_npz.py --motion_file motion_data/dance1_subject2_v2fix_dex_evt2.npz --speed 3
+ 1196  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 120 420 --output_name dance1_object2_dex_evt2_01 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless
+ 1197  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_object2_dex_evt2_01.npz  --speed 3
+ 1198  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 150 460 --output_name dance1_object2_dex_evt2_01 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless
+ 1199  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_object2_dex_evt2_01.npz  --speed 3
+ 1200  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 180 510 --output_name dance1_object2_dex_evt2_01 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless
+ 1201  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_object2_dex_evt2_01.npz  --speed 3
+ 1202  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 180 540 --output_name dance1_object2_dex_evt2_01 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless
+ 1203  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_object2_dex_evt2_01.npz  --speed 3
+ 1204  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-14_03-19-22   --checkpoint=model_5400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz    --video --video_length 40000     --headless
+ 1205  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-14_04-54-35   --checkpoint=model_3400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_01.npz 
+ 1206  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-14_04-54-35   --checkpoint=model_3400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_01.npz --video --video_length 12000     --headless
+ 1207  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-14_04-54-35   --checkpoint=model_4600.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_01.npz --video --video_length 20000     --headless
+ 1208  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-14_04-54-35   --checkpoint=model_6000.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_01.npz --video --video_length 20000     --headless
+ 1209  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-14_04-54-35   --checkpoint=model_6000.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_01.npz
+ 1210  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-14_04-54-35   --checkpoint=model_l_6400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_01.npz --video --video_length 20000     --headless
+ 1211  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-14_04-54-35   --checkpoint=model_6400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_01.npz --video --video_length 20000     --headless
+ 1212  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-14_04-54-35   --checkpoint=model_7600.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_01.npz --video --video_length 20000     --headless
+ 1213  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-14_04-54-35   --checkpoint=model_7600.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_01.npz
+ 1214  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=50000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_01.npz     --headless --logger tensorboard 
+ 1215  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-14_04-54-35   --checkpoint=model_7600.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_01.npz --video --video_length 20000     --headless
+ 1216  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-14_04-54-35   --checkpoint=model_8000.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_01.npz --video --video_length 8000     --headless
+ 1217  cd isaac/
+ 1218  source env_isaaclab/bin/activate
+ 1219  history
+ 1220  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 210 420 --output_name dance1_object2_dex_evt2_01 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless
+ 1221  cd xMimic/
+ 1222  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 210 420 --output_name dance1_object2_dex_evt2_01 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless
+ 1223  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_object2_dex_evt2_01.npz  --speed 3
+ 1224  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=50000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_01.npz     --headless --logger tensorboard 
+ 1225  cd ..
+ 1226  source env_isaaclab/bin/activate
+ 1227  cd xMimic/
+ 1228  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-14_22-20-26   --checkpoint=model_2000.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_01.npz 
+ 1229  cd isaac/
+ 1230  source env_isaaclab/bin/activate
+ 1231  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=50000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_01.npz     --headless --logger tensorboard 
+ 1232  cd xMimic/
+ 1233  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=50000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_01.npz     --headless --logger tensorboard 
+ 1234  cd ../
+ 1235  source env_isaaclab/bin/activate
+ 1236  cd xMimic/
+ 1237  history
+ 1238  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-19_00-00-26     --checkpoint=model_8400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/aiming1_subject1_dex_evt2_04.npz
+ 1239  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-19_00-00-26     --checkpoint=model_8400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_object2_dex_evt2_01.npz 
+ 1240  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-19_00-00-26     --checkpoint=model_8600.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_object2_dex_evt2_01.npz   --video --video_length 20000     --headless
+ 1241  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 180 510 --output_name dance1_object2_dex_evt2_01 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45  --knee_modify --headless
+ 1242  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 180 510 --output_name dance1_object2_dex_evt2_01 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45  --headless
+ 1243  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_object2_dex_evt2_01.npz  --speed 2
+ 1244  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 210 510 --output_name dance1_subject2_dex_evt2_02 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless
+ 1245  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_02.npz  --speed 2
+ 1246  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 210 570 --output_name dance1_subject2_dex_evt2_02 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless
+ 1247  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_02.npz  --speed 2
+ 1248  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-19_00-00-26     --checkpoint=model_8400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_object2_dex_evt2_01.npz 
+ 1249  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-19_00-00-26     --checkpoint=model_10200.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_object2_dex_evt2_01.npz   --video --video_length 20000     --headless
+ 1250  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 210 570 --output_name dance1_subject2_dex_evt2_02 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless  --knee_modify
+ 1251  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-19_00-00-26     --checkpoint=model_10200.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_object2_dex_evt2_01.npz   
+ 1252  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=40000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_02.npz     --headless --logger tensorboard 
+ 1253  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=50000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_02.npz     --headless --logger tensorboard 
+ 1254  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-20_02-27-27     --checkpoint=model_4800.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_02.npz   
+ 1255  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=40000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_02.npz     --headless --logger tensorboard 
+ 1256  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-20_09-23-56     --checkpoint=model_5400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_02.npz   
+ 1257  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-20_09-23-56     --checkpoint=model_5406.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_02.npz   
+ 1258  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-20_09-23-56     --checkpoint=model_5600.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_02.npz   
+ 1259  history > history.txt
+ 1260  history
+ 1261  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 210 430 --output_name dance1_subject2_dex_evt2_03 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless  --knee_modify
+ 1262  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 210 450 --output_name dance1_subject2_dex_evt2_03 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless  --knee_modify
+ 1263  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_03.npz  --speed 2
+ 1264  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 210 430 --output_name dance1_subject2_dex_evt2_03 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless  --knee_modify
+ 1265  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_03.npz  --speed 2
+ 1266  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 210 420 --output_name dance1_subject2_dex_evt2_03 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless  --knee_modify
+ 1267  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_03.npz  --speed 2
+ 1268  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-20_16-43-07     --checkpoint=model_1400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_03.npz   
+ 1269  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-20_16-43-07     --checkpoint=model_1426.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_03.npz   
+ 1270  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-20_16-43-07     --checkpoint=model_2600.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_03.npz   
+ 1271  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2dex_evt2_bvh.npz  --speed 2
+ 1272  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 210 1440 --output_name dance1_subject2_dex_evt2_03 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless  --knee_modify
+ 1273  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 210 1440 --output_name dance1_subject2_dex_evt2_04 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless  --knee_modify
+ 1274  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz  --speed 3
+ 1275  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 210 1590 --output_name dance1_subject2_dex_evt2_04 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless  --knee_modify
+ 1276  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz  --speed 3
+ 1277  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 150 1560 --output_name dance1_subject2_dex_evt2_04 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless  --knee_modify
+ 1278  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz  --speed 3
+ 1279  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 120 1560 --output_name dance1_subject2_dex_evt2_04 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless  --knee_modify
+ 1280  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz  --speed 3
+ 1281  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=40000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_03.npz     --headless --logger tensorboard 
+ 1282  cd ../
+ 1283  ls
+ 1284  cd IsaacLab/
+ 1285  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-Velocity-Rough-Anymal-C-v0 --headless
+ 1286  ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-Velocity-Rough-Anymal-C-v0
+ 1287  python scripts/rsl_rl/train.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=4096     --max_iterations=40000     --device cuda:0     --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz     --headless --logger tensorboard 
+ 1288  python check_floor_clipping.py xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz 
+ 1289  cd logs/rsl_rl/dex_evt_flat/
+ 1290  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-20_20-07-13     --checkpoint=model_6000.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz   
+ 1291  cd ../
+ 1292  cd xMimic/
+ 1293  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-20_20-07-13     --checkpoint=model_6000.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz   
+ 1294  tensorboard --logdir=2026-07-20_20-07-13
+ 1295  cd ../../../
+ 1296  python scripts/rsl_rl/train.py \ --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0 \ --num_envs=4096 \ --max_iterations=40000 \ --device cuda:0 \ --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz \ --headless \ --logger tensorboard \    --resume True     --load_run 2026-07-20_16-43-07     --checkpoint model_4000.pt
+ 1297  python scripts/rsl_rl/train.py  --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0  --num_envs=4096  --max_iterations=40000  --device cuda:0  --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz  --headless  --logger tensorboard    --resume True     --load_run 2026-07-20_16-43-07     --checkpoint model_4000.pt
+ 1298  cd logs/rsl_rl/dex_evt_flat/
+ 1299  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-21-10-38-51     --checkpoint=model_12000.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz   
+ 1300  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-21_10-38-51     --checkpoint=model_12000.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz   
+ 1301  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-21_10-38-51     --checkpoint=model_4000.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz   
+ 1302  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-21_10-38-51     --checkpoint=model_5000.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz   
+ 1303  tensorboard --logdir=2026-07-21_10-38-51
+ 1304  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-21_10-38-51     --checkpoint=model_6000.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz   
+ 1305  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-21_10-38-51     --checkpoint=model_4400.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz   
+ 1306  python scripts/rsl_rl/train.py  --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0  --num_envs=4096  --max_iterations=40000  --device cuda:0  --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz  --headless  --logger tensorboard    --resume True     --load_run 2026-07-21_10-38-51     --checkpoint model_12000.pt
+ 1307  cd ../../../
+ 1308  python scripts/rsl_rl/play.py     --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0     --num_envs=1     --load_run=2026-07-21_20-46-18     --checkpoint=model_14000.pt    --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz   
+ 1309  python scripts/rsl_rl/train.py  --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0  --num_envs=4096  --max_iterations=40000  --device cuda:0  --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz  --headless  --logger tensorboard    --resume True     --load_run 2026-07-21_10-38-51     --checkpoint model_12000.pt
+ 1310  cd isaac/xMimic/
+ 1311  python check_npz.py motion_example/weibst_hard.npz 
+ 1312  cd  ..
+ 1313  source env_isaaclab/bin/activate
+ 1314  cd xMimic/
+ 1315  python check_npz.py motion_example/weibst_hard.npz 
+ 1316  python scripts/rsl_rl/train.py  --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0  --num_envs=4096  --max_iterations=40000  --device cuda:0  --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz  --headless  --logger tensorboard
+ 1317  python check_npz.py motion_example/weibst_hard.npz 
+ 1318  python scripts/replay_npz.py --motion_file motion_example/weibst_hard.npz 
+ 1319  python
+ 1320  python -c "import numpy; print(numpy.\_\_version\_\_)"
+ 1321  python -c "import numpy; print(numpy.__version__)"
+ 1322  python -c "import numpy._core"
+ 1323  pip uninstall numpy -y
+ 1324  pip install numpy==1.26.4
+ 1325  pip install numpy==1.26.0
+ 1326  pip uninstall numpy -y
+ 1327  pip install numpy==1.26.4
+ 1328  python -c "import numpy; import numpy._core; print('numpy正常:', numpy.__version__)"
+ 1329  python -c "import numpy._core"
+ 1330  python
+ 1331  python scripts/gmr_to_npz_inter.py   --input_file motion_example/weibst_hard.pkl   --input_fps 120   --output_name weibst_hard_dex_evt   --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/   --output_fps 100   --robot dex_evt   --headless
+ 1332  python scripts/gmr_to_npz_inter.py   --input_file motion_example/weibst_hard.pkl   --input_fps 120   --output_name weibst_hard_dex_evt   --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/   --output_fps 100   --robot dex_evt   --headless  --knee_modify
+ 1333  python scripts/replay_npz.py --motion_file xGMR/motion_npz/weibst_hard_dex_evt.npz 
+ 1334  python check_npz.py xGMR/motion_npz/weibst_hard_dex_evt.npz 
+ 1335  python check_floor_clipping.py xGMR/motion_npz/weibst_hard_dex_evt.npz 
+ 1336  python scripts/gmr_to_npz_inter.py   --input_file motion_example/weibst_hard.pkl   --input_fps 120   --output_name weibst_hard_dex_evt   --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/   --output_fps 100   --robot dex_evt   --headless --knee_modify --clamp_joint_vel
+ 1337  python check_floor_clipping.py xGMR/motion_npz/weibst_hard_dex_evt.npz 
+ 1338  python check_npz.py xGMR/motion_npz/weibst_hard_dex_evt.npz 
+ 1339  python scripts/gmr_to_npz_inter.py   --input_file motion_example/weibst_hard.pkl   --input_fps 120   --output_name weibst_hard_dex_evt   --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/   --output_fps 100   --robot dex_evt   --headless --knee_modify --clamp_joint_vel
+ 1340  python check_npz.py xGMR/motion_npz/weibst_hard_dex_evt.npz 
+ 1341  python scripts/rsl_rl/train.py  --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0  --num_envs=4096  --max_iterations=40000  --device cuda:0  --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/weibst_hard_dex_evt.npz  --headless  --logger tensorboard
+ 1342  python scripts/rsl_rl/train.py  --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0  --num_envs=4096  --max_iterations=40000  --device cuda:0  --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_04.npz  --headless  --logger tensorboard
+ 1343  python scripts/gmr_to_npz_inter.py --input_file xGMR/output/dance1_subject2_v2fixdex_evt2.pkl --input_fps 30 --frame_range 120 930 --output_name dance1_subject2_dex_evt2_05 --output_dir /home/felix/isaac/xMimic/xGMR/motion_npz/ --output_fps 90 --robot dex_evt --start_frames 45 --end_frames 45 --hold_pos 45 --headless  --knee_modify
+ 1344  python scripts/replay_npz.py --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_05.npz  --speed 3
+ 1345  python scripts/rsl_rl/train.py  --task=Tracking-Flat-DexEVT-Wo-State-Estimation-v0  --num_envs=4096  --max_iterations=40000  --device cuda:0  --motion_file /home/felix/isaac/xMimic/xGMR/motion_npz/dance1_subject2_dex_evt2_05.npz  --headless  --logger tensorboard
+ 1346  history > history.txt

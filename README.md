@@ -7,7 +7,9 @@
 [![Linux platform](https://img.shields.io/badge/platform-linux--64-orange.svg)](https://releases.ubuntu.com/20.04/)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/license/mit)
-可学习查尔斯等复杂舞蹈。让智能体（如机器人、虚拟角色）通过学习专家示范数据（如动作捕捉、人类操作轨迹），而非从零试错，来掌握完成任务的策略。可实现：
+
+## 说明
+二开自xMimic，修正源代码错误，并可学习查尔斯等复杂舞蹈。让智能体（如机器人、虚拟角色）通过学习专家示范数据（如动作捕捉、人类操作轨迹），而非从零试错，来掌握完成任务的策略。可实现：
 （1）数据格式无缝转换。动捕数据格式bvh、numpy压缩格式npz和python序列化格式pkl的互相转换。
 （2）机器人类型适配。支持宇树g1、g1_edu、h1和h2之间自由度的转换。
 （3）环境仿真训练。通过Isaac Lab+Isaac SIM实现环境仿真。
